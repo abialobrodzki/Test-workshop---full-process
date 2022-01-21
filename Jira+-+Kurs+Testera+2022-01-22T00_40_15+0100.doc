@@ -1232,7 +1232,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-162]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-162">Przygotowanie planu testów dla aplikacji Coders Guru.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 21/sty/22
 
                                             </span>
             </h3>
@@ -1364,6 +1364,8 @@ hr.fullcontent
             <td bgcolor="#ffffff" valign="top">
                                     <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
                     PLAN TESTÓW PLATFORMY „CODERS GURU” – v. 1.0.docx &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
+                    PLAN TESTÓW PLATFORMY „CODERS GURU” – v. 1.1.docx &nbsp;&nbsp;&nbsp;
                             </td>
         </tr>
         
@@ -2031,7 +2033,7 @@ hr.fullcontent
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Fri Jan 21 12:30:04 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Fri Jan 21 23:40:15 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>

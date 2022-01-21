@@ -1,4 +1,4 @@
-# Test workshop CodersLab - full process
+# Test workshop Coders Lab - full process
  
  The workshop includes:
 - full Scrum sprint of the test team;
@@ -8,10 +8,10 @@
 
 Contents of workshop:
 1. Agile method - planning cases in JIRA:
-- included in: Jira+-+Kurs+Testera+2022-01-21T13_30_04+0100.doc
+- included in: Jira+-+Kurs+Testera+2022-01-22T00_40_15+0100.doc
 2. Test plan - document describe test process
 - documentation review: CG_ProjektTechniczny_1_0.pdf
-- included in: PLAN TESTÓW PLATFORMY „CODERS GURU” – v. 1.0.docx
+- included in: PLAN TESTÓW PLATFORMY „CODERS GURU” – v. 1.1.docx
 3. Test cases
 - ... to be continued
 4. Errors
