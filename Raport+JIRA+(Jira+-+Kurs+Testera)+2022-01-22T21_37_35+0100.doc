@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jira - Kurs Testera</title>
+    <title>Raport JIRA (Jira - Kurs Testera)</title>
     <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
         <style type="text/css">
 
@@ -1088,7 +1088,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-165]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-165">Opracowanie przypadków testowych dla aplikacji Coders Guru w narzędziu Testlink.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 22/sty/22
 
                                             </span>
             </h3>
@@ -1096,7 +1096,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">Do zrobienia</td>
+        <td width="80%">W toku</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1213,6 +1213,17 @@ hr.fullcontent
     	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
             
 
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
+                    Plan testów - TestLink 1.9.18 (Gaura).pdf &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
+                    Raport z testów - TestLink 1.9.18 (Gaura).pdf &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
         
     
 
@@ -1224,6 +1235,39 @@ hr.fullcontent
             </tr>
             </table>
 
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Przypadki opracowywane w narzędziu TestLink.</p>
+
+<p>Testy obejmują wymagania funkcjonalne:</p>
+
+<p>W-FUN.2</p>
+
+<p>W-FUN.3</p>
+
+<p>W-FUN.6</p>
+
+<p>W-FUN.7</p>
+
+<p>W-FUN.8</p>
+
+<p>W-FUN.9</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
 
 <hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
 <table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -1232,15 +1276,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-162]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-162">Przygotowanie planu testów dla aplikacji Coders Guru.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 21/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 22/sty/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 22/sty/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1309,7 +1354,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -1379,6 +1424,26 @@ hr.fullcontent
             </tr>
             </table>
 
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Plan testów dodany w załączniku.<br/>
+ Aktualna wersja dokumentu oznaczona jako v. 1.1.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
 
 <hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
 <table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -2033,7 +2098,7 @@ hr.fullcontent
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Fri Jan 21 23:40:15 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Jan 22 20:37:35 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>
