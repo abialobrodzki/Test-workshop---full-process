@@ -78,6 +78,370 @@ hr.fullcontent
     <tr>
         <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
                             <h3 class="formtitle">
+                        [ONLW23-170]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-170">Wykonanie testów eksploracyjnych aplikacji MyStore - rejestracja błędów.</a>
+            <span class="subText">
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-139755-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
+                    MyStore_plan_testow.pdf &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
+                    Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-01-23T23_46_13+0100.doc &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-139755-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Plan testów eksploracyjnych dodany w załączeniu.</p>
+
+<p>Raport z wykonanych testów eksploracyjnych dodany w załączeniu.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-165]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-165">Opracowanie przypadków testowych dla aplikacji Coders Guru w narzędziu Testlink.</a>
+            <span class="subText">
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 22/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-139750-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
+                    Plan testów - TestLink 1.9.18 (Gaura).pdf &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
+                    Raport z testów - TestLink 1.9.18 (Gaura).pdf &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-139750-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Przypadki opracowywane w narzędziu TestLink.</p>
+
+<p>Testy obejmują wymagania funkcjonalne:</p>
+
+<p>W-FUN.2</p>
+
+<p>W-FUN.3</p>
+
+<p>W-FUN.6</p>
+
+<p>W-FUN.7</p>
+
+<p>W-FUN.8</p>
+
+<p>W-FUN.9</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
                         [ONLW23-180]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-180">Uzupełnienie ankiety po zakończeniu kursu.</a>
             <span class="subText">
                Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
@@ -798,161 +1162,18 @@ hr.fullcontent
     <tr>
         <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
                             <h3 class="formtitle">
-                        [ONLW23-170]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-170">Wykonanie testów eksploracyjnych aplikacji MyStore - rejestracja błędów.</a>
-            <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
-
-                                            </span>
-            </h3>
-        </td>
-    </tr>
-    <tr>
-        <td width="20%"><b>Status:</b></td>
-        <td width="80%">Do zrobienia</td>
-    </tr>
-    <tr>
-        <td width="20%"><b>Projekt:</b></td>
-        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
-    </tr>
-
-        <tr>
-            <td><b>Komponenty:</b></td>
-            <td>
-                            Brak
-                </td>
-    </tr>
-    
-
-        <tr>
-            <td><b>Odnośne wersje:</b></td>
-            <td>
-                            Brak
-                </td>
-    </tr>
-    
-
-        <tr>
-            <td><b>Wersja naprawy:</b></td>
-            <td>
-                            Brak
-                </td>
-    </tr>
-    
-    </table>
-
-<br />
-<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
-    <tr>
-        <td bgcolor="#f0f0f0" valign="top" width="20%">
-            <b>Typ:</b>
-        </td>
-        <td bgcolor="#ffffff" valign="top"  width="30%" >
-            Zadanie
-        </td>
-
-                    <td bgcolor="#f0f0f0">
-                <b>Priorytet:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" nowrap>
-                High
-            </td>
-            </tr>
-    <tr>
-                        <td bgcolor="#f0f0f0" valign="top" width="20%">
-                <b>Osoba zgłaszająca:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top"  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
-                            </td>
-        
-                    <td bgcolor="#f0f0f0" width="20%">
-                <b>Osoba przypisana:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
-                            </td>
-            </tr>
-    	<tr>
-		<td bgcolor="#f0f0f0" width="20%">
-			<b>Rozwiązanie:</b>
-		</td>
-		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
-                    </td>
-                    <td bgcolor="#f0f0f0" width="20%">
-                <b>Głosy:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-                0
-            </td>
-        
-    </tr>
-    
-        <tr>
-        <td bgcolor="#f0f0f0" width="20%">
-            <b>Etykiety:</b>
-        </td>
-        <td id="labels-139755-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
-                            Brak
-                    </td>
-    </tr>
-    
-    	<tr>
-        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
-        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
-                            Nie określono
-            		</td>
-    </tr>
-    <tr>
-                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
-		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
-                            Nie określono
-            		</td>
-	</tr>
-    <tr>
-                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
-		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
-                            Nie określono
-            		</td>
-    </tr>
-    
-    </table>
-
-
-
-    <br />
-
-    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
-            
-
-        
-    
-
-
-
-                        <tr>
-                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
-                <td id="customfield_10104-139755-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
-            </tr>
-            </table>
-
-
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
-<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
-    <tr>
-        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
-                            <h3 class="formtitle">
                         [ONLW23-169]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-169">Przegląd dokumentacji aplikacji MyStore.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 23/sty/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">Do zrobienia</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1021,7 +1242,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -1069,159 +1290,13 @@ hr.fullcontent
     	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
             
 
-        
-    
-
-
-
-                        <tr>
-                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
-                <td id="customfield_10104-139754-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
-            </tr>
-            </table>
-
-
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
-<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
-    <tr>
-        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
-                            <h3 class="formtitle">
-                        [ONLW23-165]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-165">Opracowanie przypadków testowych dla aplikacji Coders Guru w narzędziu Testlink.</a>
-            <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 22/sty/22
-
-                                            </span>
-            </h3>
-        </td>
-    </tr>
-    <tr>
-        <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
-    </tr>
-    <tr>
-        <td width="20%"><b>Projekt:</b></td>
-        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
-    </tr>
-
-        <tr>
-            <td><b>Komponenty:</b></td>
-            <td>
-                            Brak
-                </td>
-    </tr>
-    
-
-        <tr>
-            <td><b>Odnośne wersje:</b></td>
-            <td>
-                            Brak
-                </td>
-    </tr>
-    
-
-        <tr>
-            <td><b>Wersja naprawy:</b></td>
-            <td>
-                            Brak
-                </td>
-    </tr>
-    
-    </table>
-
-<br />
-<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
-    <tr>
-        <td bgcolor="#f0f0f0" valign="top" width="20%">
-            <b>Typ:</b>
-        </td>
-        <td bgcolor="#ffffff" valign="top"  width="30%" >
-            Zadanie
-        </td>
-
-                    <td bgcolor="#f0f0f0">
-                <b>Priorytet:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" nowrap>
-                High
-            </td>
-            </tr>
-    <tr>
-                        <td bgcolor="#f0f0f0" valign="top" width="20%">
-                <b>Osoba zgłaszająca:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top"  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
-                            </td>
-        
-                    <td bgcolor="#f0f0f0" width="20%">
-                <b>Osoba przypisana:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
-                            </td>
-            </tr>
-    	<tr>
-		<td bgcolor="#f0f0f0" width="20%">
-			<b>Rozwiązanie:</b>
-		</td>
-		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
-                    </td>
-                    <td bgcolor="#f0f0f0" width="20%">
-                <b>Głosy:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-                0
-            </td>
-        
-    </tr>
-    
-        <tr>
-        <td bgcolor="#f0f0f0" width="20%">
-            <b>Etykiety:</b>
-        </td>
-        <td id="labels-139750-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
-                            Brak
-                    </td>
-    </tr>
-    
-    	<tr>
-        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
-        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
-                            Nie określono
-            		</td>
-    </tr>
-    <tr>
-                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
-		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
-                            Nie określono
-            		</td>
-	</tr>
-    <tr>
-                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
-		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
-                            Nie określono
-            		</td>
-    </tr>
-    
-    </table>
-
-
-
-    <br />
-
-    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
-            
-
                 <tr>
             <td bgcolor="#f0f0f0" width=20% valign=top>
                 <b>Załączniki:</b>
             </td>
             <td bgcolor="#ffffff" valign="top">
                                     <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
-                    Plan testów - TestLink 1.9.18 (Gaura).pdf &nbsp;&nbsp;&nbsp;
-                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="Plik PDF">
-                    Raport z testów - TestLink 1.9.18 (Gaura).pdf &nbsp;&nbsp;&nbsp;
+                    Wymagania sklep interentowy MyStore.pdf &nbsp;&nbsp;&nbsp;
                             </td>
         </tr>
         
@@ -1231,7 +1306,7 @@ hr.fullcontent
 
                         <tr>
                 <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
-                <td id="customfield_10104-139750-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+                <td id="customfield_10104-139754-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
             </tr>
             </table>
 
@@ -1249,21 +1324,7 @@ hr.fullcontent
     <table cellpadding="0" cellspacing="0" border="0" width="100%">
     <tr>
         <td id="descriptionArea">
-            <p>Przypadki opracowywane w narzędziu TestLink.</p>
-
-<p>Testy obejmują wymagania funkcjonalne:</p>
-
-<p>W-FUN.2</p>
-
-<p>W-FUN.3</p>
-
-<p>W-FUN.6</p>
-
-<p>W-FUN.7</p>
-
-<p>W-FUN.8</p>
-
-<p>W-FUN.9</p>
+            <p>Dokumentacja wymagań dla aplikacji MyStore dodana w załączeniu.</p>
             <br/>
         </td>
     </tr>
@@ -1932,9 +1993,9 @@ hr.fullcontent
     <tr>
         <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
                             <h3 class="formtitle">
-                        [ONLW23-84]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-84">Formularz rejestracyjny. (testowy)</a>
+                        [ONLW23-84]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-84">[testowy] Formularz rejestracyjny.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
 
                                                     &nbsp;Rozwiązane: 09/sty/22
                             </span>
@@ -2098,7 +2159,7 @@ hr.fullcontent
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Jan 22 20:37:35 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sun Jan 23 22:59:45 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>

@@ -1,0 +1,2477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Raport JIRA Testy eksploracyjne (Jira - Kurs Testera)</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-kurs.coderslab.pl/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-427]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-427">[poprawić] Niepoprawna walidacja pola &quot;First name&quot; w polu adresu [WYM-13]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140599-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, addresses, panel_użytkownika                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 141406.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140599-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik zalogowany, wciśnij nazwę użytkownika w prawym, górnym roku strony</li>
+	<li>w panelu użytkownika wciśnij kafelkę "Addresses"</li>
+	<li>kliknij "+ Create new address"</li>
+	<li>wypełnij pola formularza, w tym pole "First name"</li>
+	<li>wciśnij przycisk "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>W polu "First name" oprócz liter można dodać liczby,</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>W polu "First name" nie  można dodać liczby ani żadnych znaków specjalnych,</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-397]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-397">[poprawić] Brak możliwości zmiany hasła przez użytkownika [WYM-10]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140569-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, information, panel_użytkownika                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140569-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik zalogowany, wciśnij nazwę użytkownika w prawym, górnym roku strony</li>
+	<li>wciśnij kafelkę "Information"</li>
+	<li>edytuj hasło pola formularza "New password"</li>
+	<li>podaj aktualne hasło w polu "Password"</li>
+	<li>wciśnij przycisk "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Nie można zmienić hasła - niekatywne pole "First name" jest wymagane.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Możliwa jest zmiana hasła, bez edytowania innych pól formularza nie związanych z hasłem.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-386]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-386">[poprawić] Brak możliwości edycji informacji o użytkowniku [WYM-9]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140558-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, information, panel_użytkownika                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 122725.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140558-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik zalogowany, wciśnij nazwę użytkownika w prawym, górnym roku strony</li>
+	<li>wciśnij kafelkę "Information"</li>
+	<li>edytuj wybrane pola formularza</li>
+	<li>podaj aktualne hasło w polu "Password"</li>
+	<li>wciśnij przycisk "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Pole "First name" nie jest aktywne, ale jest wymagane do zmiany danych, co uniemożliwia zmianę danych użytkownika.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Wszystkie pola formularza są aktywne i można je edytować, co umożliwia zmianę danych. Powtórne wypełnienie pola "First name" nie powinno być wymagane przy zmianie pozostałych danych w formularzu.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-371]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-371">[poprawić] Brak wyświetlenia daty urodzin [WYM-8]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140543-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, information, panel_użytkownika                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 121156.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140543-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik zalogowany, wciśnij nazwę użytkownika w prawym, górnym roku strony</li>
+	<li>wciśnij kafelkę "Information"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Pole "Birthdate" nie wyświetla aktualnej daty urodzin użytkownika.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Pole "Birthdate" wyświetla aktualną datę urodzin użytkownika.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-347]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-347">[poprawić] Brak możliwości podglądu hasła podczas logowania [WYM-4]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140519-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, logowanie                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 114226.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140519-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik niezalogowany, wciśnij przycisk "Sign in"</li>
+	<li>wypełnij wszystkie pole formularza</li>
+	<li>wciśnij przycisk "Show"</li>
+	<li>kliknij "Sign in"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Zarejestrowany użytkownik, podczas logowania nie ma możliwość podglądu hasła za pomocą przycisku "Show".</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Zarejestrowany użytkownik, podczas logowania ma możliwość podglądu hasła za pomocą przycisku "Show".</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-337]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-337">[poprawić] Brak możliwości podglądu hasła podczas rejestracji [WYM-4]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140509-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, rejestracja                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 113625.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140509-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik niezalogowany, wciśnij przycisk "Sign in"</li>
+	<li>w formularzu logowania wciśnij odnośnik "No account? Create one here"</li>
+	<li>wypełnij wszystkie pole formularza</li>
+	<li>oznacz wszystkie checkboxy (zgody opcjonalne)</li>
+	<li>wciśnij przycisk "Show"</li>
+	<li>kliknij "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Użytkownik, podczas rejestracji, nie ma możliwość podglądu hasła za pomocą przycisku "Show".</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Użytkownik, podczas rejestracji, ma możliwość podglądu hasła  za pomocą przycisku "Show".</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-320]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-320">Nie można wylogować się z panelu użytkownika [WYM-7]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140492-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, panel_użytkownika                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 170537.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140492-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-7&#93;</span>. Jako zalogowany użytkownik chcę mieć dostęp do profilu zalogowanego użytkownika, aby móc sprawdzić informacje o swoim koncie, adresach, zamówieniach i pokwitowaniach. <span class="error">&#91;S&#93;</span></em><br/>
+ <em>● Dostęp tylko dla zalogowanych użytkowników poprzez kliknięcie nazwy użytkownika w prawym górnym rogu strony (obok koszyka)</em><br/>
+ <em>● Po wejściu na profil użytkownika wyświetlają się 4 kafelki:</em><br/>
+ <em>○ Information</em><br/>
+ <em>○ Addresses</em><br/>
+ <em>○ Order History and Details</em><br/>
+ <em>○ Credit Slips</em><br/>
+ <em>● Dodatkowo wyświetla się opcja wylogowania się przez “Sign out”</em></p>
+<ol>
+	<li>użytkownik zalogowany, wciśnij nazwę użytkownika w prawym, górnym roku strony</li>
+	<li>wyloguj się poprzez przycisk "Sign out"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Użytkownik nie może wylogować się poprzez odnośnik "Sign out" w dolnej części panelu użytkownika.</p>
+
+<p>Użytkownik może wylogować się poprzez przycisk "Sign out" w prawym górnym rogu strony.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Użytkownik może wylogować się poprzez odnośnik "Sign out" w dolnej części panelu użytkownika.</p>
+
+<p>Użytkownik może wylogować się poprzez przycisk "Sign out" w prawym górnym rogu strony.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-306]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-306">Nie działa podgląd hasła [WYM-4]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140478-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, logowanie                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 164522.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140478-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-4&#93;</span>. Jako niezarejestrowany bądź zarejestrowany użytkownik chcę mieć możliwość podglądu wpisywanego hasła w formularzu rejestracji jak i logowania, aby mieć pewność że wpisałem prawidłowe hasło. <span class="error">&#91;C&#93;</span></em><br/>
+ <em>● Poprzez kliknięcie przycisku “Show"</em></p>
+<ol>
+	<li>użytkownik niezalogowany, wciśnij przycisk "Sign in"</li>
+	<li>wypełnij wszystkie pola dla danych logowania</li>
+	<li>wciśnij przycisk "Show"</li>
+	<li>kliknij "Sign in"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Zarejestrowany użytkownik, podczas logowania nie ma możliwość podglądu hasła za pomocą przycisku "Show".</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Zarejestrowany użytkownik, podczas logowania ma możliwość podglądu hasła za pomocą przycisku "Show".</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-293]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-293">Nie działa podgląd hasła [WYM-4]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140465-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, rejestracja                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 163601.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140465-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-4&#93;</span>. Jako niezarejestrowany bądź zarejestrowany użytkownik chcę mieć możliwość podglądu wpisywanego hasła w formularzu rejestracji jak i logowania, aby mieć pewność że wpisałem prawidłowe hasło. <span class="error">&#91;C&#93;</span></em><br/>
+ <em>● Poprzez kliknięcie przycisku “Show"</em></p>
+<ol>
+	<li>użytkownik niezarejestrowany, wciśnij przycisk "Sign in"</li>
+	<li>w formularzu logowania wciśnij odnośnik "No account? Create one here"</li>
+	<li>wypełnij wszystkie pole formularza</li>
+	<li>oznacz wszystkie checkboxy (zgody opcjonalne)</li>
+	<li>wciśnij przycisk "Show"</li>
+	<li>kliknij "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Użytkownik, podczas rejestracji, nie ma możliwość podglądu hasła za pomocą przycisku "Show".</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Użytkownik, podczas rejestracji, ma możliwość podglądu hasła  za pomocą przycisku "Show".</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-276]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-276">Niepoprawna walidacja formularza rejestracji [WYM-2]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140448-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, checkbox, rejestracja                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 160800.jpg &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 161639.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140448-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-2&#93;</span>. Walidacja formularza rejestracji <span class="error">&#91;S&#93;</span>:</em><br/>
+ <em>Pola wymagane:</em><br/>
+ <em>● Pole First name - musi zawierać wyłącznie litery</em><br/>
+ <em>● Pole Last name - musi zawierać wyłącznie litery</em><br/>
+ <em>● Pole Email - musi zawierać email, na który nie zostało założone jeszcze konto</em><br/>
+ <em>● Pole Password - powinno zawierać co najmniej 5 dowolnych znaków</em><br/>
+ <em>Pola opcjonalne:</em><br/>
+ <em>● Pole Birthdate - musi zawierać wyłącznie cyfry w formacie 11/11/1111</em><br/>
+ <em>● Social title - możliwość zaznaczenia Mr. lub Mrs.</em><br/>
+ <em>● Newsletter - możliwość zaznaczenia zgody na newsletter</em><br/>
+ ● Receive offers from our partners​ - możliwość zaznaczenia zgody na oferty od <em>partnerów</em></p>
+<ol>
+	<li>użytkownik niezalogowany, wciśnij przycisk "Sign in"</li>
+	<li>w formularzu logowania wciśnij odnośnik "No account? Create one here"</li>
+	<li>wypełnij wszystkie pole formularza</li>
+	<li>oznacz wszystkie checkboxy (zgody opcjonalne)</li>
+	<li>kliknij "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Użytkownik może wybrać pole "Social title" - jednak nie może go odznaczyć i nie ma podanej informacji, że pole jest opcjonalne.</p>
+
+<p>Pole formularza "Last name" zawiera litery i cyfry.</p>
+
+<p>Pole formularza "Birthday" nie posiada zdefiniowanego formatu, dodatkowo zawiera cyfry i litery.</p>
+
+<p>Użytkownik nie może zaznaczyć checkbox'a ze zgodą na subskrypcję newslettera.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Użytkownik może wybrać i odznaczyć opcjonalne pole "Social title".</p>
+
+<p>Pole formularza "Last name" zawiera wyłącznie litery.</p>
+
+<p>Pole formularza "Birthdate" zawiera wyłącznie cyfry w formacie 11/11/1111.</p>
+
+<p>Użytkownik podczas rejestracji ma możliwość wybrania subskrypcji newslettera (zaznaczyć checkbox).</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-240]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-240">Brak możliwości rejestracji użytkownika [WYM-1]</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140412-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, rejestracja                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-23 104536.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140412-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-1&#93;</span>. Jako niezarejestrowany użytkownik chcę zarejestrować się w serwisie, aby mieć możliwość zalogowania się. <span class="error">&#91;M&#93;</span></em></p>
+<ol>
+	<li>użytkownik niezarejestrowany, wciśnij przycisk "Sign in"</li>
+	<li>w polu logowania wciśnij odnośnik "No account? Create one here"</li>
+	<li>wypełnij wszystkie pole formularza</li>
+	<li>oznacz wszystkie checkboxy (zgody opcjonalne)</li>
+	<li>kliknij "Save"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Użytkownik nie może wypełnić nieaktywnego pola formularza "First name", co uniemożliwia rejestrację.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Użytkownik niezarejestrowany ma możliwość wypełnienia całego formularza i rejestracji nowego konta.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-234]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-234">[testowy] Brak przekierowania do strony płatności</a>
+            <span class="subText">
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 23/sty/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-140406-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            aplikacjaX, płatności                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-140406-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+<ol>
+	<li>użytkownik zalogowany, dodaj produkty do koszyka</li>
+	<li>przejdź do wyboru metody dostawy i płatności</li>
+	<li>uzupełnij dane dostawy i wybierz formę płatności</li>
+	<li>kliknij "zamawiam i płacę"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p>Użytkownik nie został przekierowany do wybranej formy płatności.</p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Użytkownik został przekierowany do wybranej formy płatności, istnieje możliwość opłacenia zamówienia.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sun Jan 23 22:46:13 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+
+</body>
+</html>
