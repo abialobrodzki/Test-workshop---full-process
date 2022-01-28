@@ -9,7 +9,7 @@
 Contents of workshop:
 
 1. Agile method
-- test plan and test management in JIRA, progress report included in: "Raport+JIRA+(Jira+-+Kurs+Testera)+2022-01-28T04_29_05+0100.doc"[1]
+- test plan and test management in JIRA, progress report included in: "Raport+JIRA+(Jira+-+Kurs+Testera)+2022-01-28T20_04_08+0100"[1]
 
 2. Test plan
 - an overview of the requirements for the Coders Guru platform is included in: Coders_Guru\"CG_ProjektTechniczny_1_0.pdf"[2]
@@ -26,7 +26,7 @@ Contents of workshop:
     - test report in file: Coders_Guru\"Raport z testów - TestLink 1.9.18 (Gaura).pdf"[11]
 
 4. Errors - MyStore
-- exploratory testing bugs reported in the JIRA tool are included in: MyStore\"Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-01-28T04_27_47+0100.doc"[12]
+- exploratory testing bugs reported in the JIRA (BTS - Bug Tracking Systems) tool are included in: MyStore\"Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-01-28T20_02_20+0100.doc"[12]
 
 5. Retesting
 - ... to be continued
