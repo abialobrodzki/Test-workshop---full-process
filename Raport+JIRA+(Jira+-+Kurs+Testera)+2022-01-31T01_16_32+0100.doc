@@ -80,7 +80,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-170]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-170">Wykonanie testów eksploracyjnych aplikacji MyStore - rejestracja błędów.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 28/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 31/sty/22
 
                                             </span>
             </h3>
@@ -218,6 +218,8 @@ hr.fullcontent
                     Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-01-28T04_27_47+0100.doc &nbsp;&nbsp;&nbsp;
                                     <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
                     Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-01-28T20_02_20+0100.doc &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
+                    Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-01-31T01_15_50+0100.doc &nbsp;&nbsp;&nbsp;
                             </td>
         </tr>
         
@@ -2163,7 +2165,7 @@ hr.fullcontent
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Fri Jan 28 19:04:08 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Mon Jan 31 00:16:32 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>
