@@ -78,9 +78,1601 @@ hr.fullcontent
     <tr>
         <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
                             <h3 class="formtitle">
+                        [ONLW23-612]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-612">Składanie zamówień jako gość nie działa - &quot;Order as a guest&quot; [WYM-55]</a>
+            <span class="subText">
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141661-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 154558.jpg &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 154812.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141661-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-55&#93;</span>. Jako użytkownik chcę sfinalizować zamówienie, aby móc zapłacić za wybrane produkty. <span class="error">&#91;M&#93;</span></em><br/>
+ <em>● Aby przejść do widoku finalizacji zamówienia trzeba wybrać “Proceed to checkout” po dodaniu produktu do koszyka lub poprzez wybranie tego samego przycisku w widoku koszyka</em><br/>
+ <em>● Podczas finalizacji zamówienia należy przejść przez następujące kroki</em><br/>
+ <em>○ Podanie informacji osobowych</em><br/>
+      <em>■ W przypadku zalogowanego użytkownika ten krok jest zakończony automatycznie</em><br/>
+      <em>■ Zalogowany użytkownik może przejść do tego kroku i wylogować się, aby złożyć zamówienie jako gość</em><br/>
+      <em>■ Niezalogowany użytkownik musi założyć nowe konto (procedura identyczna jak przy zakładaniu nowego konta)</em><br/>
+ <em>○ Wybranie adresu dostawy</em><br/>
+ <em>○ Wybranie sposobu doręczenia zamówienia</em><br/>
+ <em>○ Wybranie sposobu zapłaty</em></p>
+<ol>
+	<li>użytkownik zalogowany, produkty w koszyku</li>
+	<li>przejdź do widoku koszyka produktów - kliknij "Cart"</li>
+	<li>finalizuj zamówienie poprzez kliknięcie przycisku “Proceed to checkout”</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Zalogowany użytkownik po wylogowaniu traci zapisane produkty w koszyku, nie może złożyć zamówienia jako gość.</font></p>
+
+<p><font color="#de350b">Komunikat "If you sign out now, your cart will be emptied" sprzeczny z wymaganiami - nie istnieje możliwość zamówienia jako gość.</font></p>
+
+<p><font color="#de350b">Przycisk "Order as a guest" nie jest aktywny - nie można złożyć zamówienie jako gość.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Zalogowany użytkownik po wylogowaniu może złożyć zamówienie jako gość.</p>
+
+<p>Przycisk "Order as a guest" jest aktywny - można złożyć zamówienie jako gość.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-611]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-611">“Proceed to checkout” przenosi do koszyka [WYM-52]</a>
+            <span class="subText">
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141660-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-610">
+                     ONLW23-610                 </a>
+            </td>
+            <td>
+                “Continue shopping” nie wraca do osta...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141660-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-52&#93;</span>. Jako użytkownik chcę dodać wybrany produkt do koszyka, aby móc go zakupić. <span class="error">&#91;M&#93;</span></em><br/>
+ <em>● Dodanie produktu do koszyka następuje po kliknięciu “Add to cart” z poziomu widoku produktu lub podglądu produktu</em><br/>
+ <em>● Po kliknięciu “Add to cart” powinna wyświetlić się informacja o dodaniu produktu do koszyka. Informacja zawiera:</em><br/>
+ <em>○ Zdjęcie produktu (bez możliwości powiększenia)</em><br/>
+ <em>○ Nazwę produktu</em><br/>
+ <em>○ Cenę w wybranej walucie</em><br/>
+ <em>○ Parametry (w zależności od typu produktu)</em><br/>
+ <em>○ Ilość wybranego produktu</em><br/>
+ <em>○ Ilość przedmiotów w koszyku</em><br/>
+ <em>○ Całkowitą cenę koszyka</em><br/>
+ <em>○ Cenę dostawy</em><br/>
+ <em>○ Cenę całkowitą koszyka</em><br/>
+ <em>○ Możliwość kontynuowania zakupów lub przejścia do koszyka</em><br/>
+ <em>● Użytkownik musi podjąć decyzję czy chce kontynuować zakupy (przycisk “Continue shopping”) czy chce sfinalizować zamówienie (przycisk “Proceed to checkout”)</em><br/>
+ <em>● Po wybraniu “Continue shopping” użytkownik wraca do ostatnio odwiedzanej kategorii i może kontynuować zakupy (dodawać kolejne przedmioty do koszyka)</em><br/>
+ <em>● Po wybraniu “Proceed to checkout” przeniesiony jest do widoku finalizacji zamówienia</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>wybierz jeden z produktów i kliknij na jego zdjęcie w obszar poza "Quick view" (może być konieczne kliknięcie w zdjęcie lub nazwę produktu)</li>
+	<li>określ parametry produktu (jeżeli dostepne) oraz jego ilość i dodaj go do koszyka klikając “Add to cart”</li>
+	<li>kliknij przycisk “Proceed to checkout”</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Po wybraniu “Proceed to checkout” użytkownik zostaje przeniesiony do koszyka.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Po wybraniu “Proceed to checkout” użytkownik zostaje przeniesiony do widoku finalizacji zamówienia.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-610]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-610">“Continue shopping” nie wraca do ostatnio wyświetlonej kategorii [WYM-52]</a>
+            <span class="subText">
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141659-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 151431.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-611">
+                     ONLW23-611                 </a>
+            </td>
+            <td>
+                “Proceed to checkout” przenosi do kos...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141659-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-52&#93;</span>. Jako użytkownik chcę dodać wybrany produkt do koszyka, aby móc go zakupić. <span class="error">&#91;M&#93;</span></em><br/>
+ <em>● Dodanie produktu do koszyka następuje po kliknięciu “Add to cart” z poziomu widoku produktu lub podglądu produktu</em><br/>
+ <em>● Po kliknięciu “Add to cart” powinna wyświetlić się informacja o dodaniu produktu do koszyka. Informacja zawiera:</em><br/>
+ <em>○ Zdjęcie produktu (bez możliwości powiększenia)</em><br/>
+ <em>○ Nazwę produktu</em><br/>
+ <em>○ Cenę w wybranej walucie</em><br/>
+ <em>○ Parametry (w zależności od typu produktu)</em><br/>
+ <em>○ Ilość wybranego produktu</em><br/>
+ <em>○ Ilość przedmiotów w koszyku</em><br/>
+ <em>○ Całkowitą cenę koszyka</em><br/>
+ <em>○ Cenę dostawy</em><br/>
+ <em>○ Cenę całkowitą koszyka</em><br/>
+ <em>○ Możliwość kontynuowania zakupów lub przejścia do koszyka</em><br/>
+ <em>● Użytkownik musi podjąć decyzję czy chce kontynuować zakupy (przycisk “Continue shopping”) czy chce sfinalizować zamówienie (przycisk “Proceed to checkout”)</em><br/>
+ <em>● Po wybraniu “Continue shopping” użytkownik wraca do ostatnio odwiedzanej kategorii i może kontynuować zakupy (dodawać kolejne przedmioty do koszyka)</em><br/>
+ <em>● Po wybraniu “Proceed to checkout” przeniesiony jest do widoku finalizacji zamówienia</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>wybierz jeden z produktów i kliknij na jego zdjęcie w obszar poza "Quick view" (może być konieczne kliknięcie w zdjęcie lub nazwę produktu)</li>
+	<li>określ parametry produktu (jeżeli dostepne) oraz jego ilość i dodaj go do koszyka klikając “Add to cart”</li>
+	<li>kliknij przycisk "Continue shopping”</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Po wybraniu “Continue shopping” użytkownik wraca do karty dodanego produktu, musi "ręcznie" cofnąć do ostatniej kategorii i może kontynuować zakupy (dodawać kolejne przedmioty do koszyka).</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Po wybraniu “Continue shopping” użytkownik wraca do ostatnio odwiedzanej kategorii i może kontynuować zakupy (dodawać kolejne przedmioty do koszyka).</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-609]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-609">Dostosowanie produktu &quot;HUMMINGBIRD PRINTED SWEATER&quot; nie działa [WYM-51]</a>
+            <span class="subText">
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141658-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 134618.jpg &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 134634.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141658-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-51&#93;</span>. Jako użytkownik chcę dostosować kupowany produkt tak, aby spełniał moje wymagania. <span class="error">&#91;M&#93;</span></em><br/>
+ <em>● Aby móc dostosować produkt do swoich wymagań, użytkownik musi być w widoku produktu (po wybraniu produktu)</em><br/>
+ <em>● Ustawienia produktu, które można zmienić zależą od typu produktu:</em><br/>
+ <em>○ <b>Ubrania</b> - rozmiar, kolor</em><br/>
+ <em>○ Kubki - brak</em><br/>
+ <em>○ Poduszki - kolor</em><br/>
+ <em>○ Notesy - typ papieru</em><br/>
+ <em>○ Ramy - wymiar</em><br/>
+ <em>○ Grafiki - brak</em><br/>
+ <em>● Dodatkowo w każdym rodzaju produktu można ustawić jego ilość. Produkt musi być dostępny - dostępność można sprawdzić w “Product Details”</em><br/>
+ <em>● W przypadku braku dostępności powinna wyświetlić się informacja o braku towaru</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>wybierz jeden z produktów i kliknij na jego zdjęcie w obszar poza "Quick view" (może być konieczne kliknięcie w zdjęcie lub nazwę produktu)</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Pełen opis produktu "HUMMINGBIRD PRINTED SWEATER" zawiera możliwość zdefiniowania tylko parametru rozmiaru, bez parametru koloru.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Pełen opis produktu "HUMMINGBIRD PRINTED SWEATER" zawiera możliwość zdefiniowania parametru rozmiaru i koloru.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-608]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-608">Nierówne marginesy boczne przy zdjęciach produktów [WYM-21]</a>
+            <span class="subText">
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141657-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, all_products, home                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 120721.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-575">
+                     ONLW23-575                 </a>
+            </td>
+            <td>
+                Widok &quot;All products&quot; nie wyświetla si...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141657-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-21&#93;</span>. Jako użytkownik chcę przejść do widoku wszystkich produktów przez kliknięcie “All products” z poziomu strony głównej, aby móc przeglądać wszystkie produkty. <span class="error">&#91;S&#93;</span></em></p>
+<ol>
+	<li>użytkownik zalogowany, z poziomu strony głównej kliknij "All products"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Prawe marginesy dla produktów wyświetlanych w 1 i 3 kolumnie są mniejsze niż w przypadku produktów wyświetlanych w 2 kolumnie.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Marginesy boczne produktów we wszystkich kolumnach są takie same.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-605]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-605">Brak informacji o bezpieczeństwie, wysyłce i zwrotach [WYM-49]</a>
+            <span class="subText">
+               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141653-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-31 222901.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141653-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-49&#93;</span>. Jako użytkownik chcę sprawdzić opis produktu, aby móc podjąć decyzję o zakupie.<span class="error">&#91;S&#93;</span></em><br/>
+ <em>● Dokładny opis (widok produktu) dostępny jest przy kliknięciu w obszar poza “Quick view” na kafelku produktu</em><br/>
+ <em>● Strona pełnego opisu produktu powinna zawierać:</em><br/>
+ <em>○ Nazwę produktu</em><br/>
+ <em>○ Zdjęcie produktu</em><br/>
+ <em>○ Cenę w wybranej walucie</em><br/>
+ <em>○ Informację o podatku</em><br/>
+ <em>○ Skrócony opis</em><br/>
+ <em>○ Możliwość zdefiniowania parametrów produktu (w zależności od kategorii)</em><br/>
+ <em>○ Możliwość wybrania ilości danego produktu</em><br/>
+ <em>○ Możliwość dodania do koszyka</em><br/>
+ <em>○ Opcję udostępnienia linku na portalach społecznościowych</em><br/>
+ <em>○ Informacje dotyczące bezpieczeństwa, wysyłki i zwrotów</em><br/>
+ <em>○ Dokładny opis (zakładka “Description”)</em><br/>
+ <em>○ Logo firmy, referencję i ilość dostępnych przedmiotów (zakładka “Product Details”)</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>wybierz jeden z produktów i kliknij na jego zdjęcie w obszar poza "Quick view" (może być konieczne kliknięcie w zdjęcie lub nazwę produktu)</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Pole zawierające informacje dotyczące bezpieczeństwa, wysyłki i zwrotów wyświetla się z komunikatem "(edit with Customer reassurance module)"</font></p>
+
+<p><font color="#de350b">Pełen opis produktu "HUMMINGBIRD PRINTED SWEATER" zawiera możliwość zdefiniowania tylko parametru rozmiaru, bez parametru koloru.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Pole zawierające informacje dotyczące bezpieczeństwa, wysyłki i zwrotów zawiera te informacje.</p>
+
+<p>Pełen opis produktu "HUMMINGBIRD PRINTED SWEATER" zawiera możliwość zdefiniowania parametru rozmiaru i koloru.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-604]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-604">&quot;Quick view&quot; - problem z podglądem kafelka produktu [WYM-50]</a>
+            <span class="subText">
+               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 01/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-141652-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 132434.jpg &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 133131.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-601">
+                     ONLW23-601                 </a>
+            </td>
+            <td>
+                Powiększenie zdjęcia nie działa [WYM-48]
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-141652-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-50&#93;</span>. Jako użytkownik chcę mieć dostęp do szybkiego podglądu produktu, aby móc</em> <em>zakupić go szybciej. <span class="error">&#91;S&#93;</span></em><br/>
+ <em>● Dostęp do szybkiego podglądu użytkownik może uzyskać poprzez wybranie “Quick</em> <em>view” na kafelku produktu</em><br/>
+ <em>● Podgląd zawiera:</em><br/>
+ <em>○ Nazwę produktu</em><br/>
+ <em>○ Zdjęcie produktu (bez możliwości powiększenia)</em><br/>
+ <em>○ Cenę w wybranej walucie</em><br/>
+ <em>○ Informację o podatku</em><br/>
+ <em>○</em> <em>Skrócony opis</em><br/>
+ <em>○ Możliwość zdefiniowania parametrów produktu (w zależności od kategorii)</em><br/>
+ <em>○ Możliwość wybrania ilości danego produktu</em><br/>
+ <em>○ Możliwość dodania do koszyka</em><br/>
+ <em>○ Opcję udostępnienia linku na portalach społecznościowych</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>wybierz jeden z produktów i kliknij "Quick view"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">"Quick view" wyświetla się cały czas, niezależnie od miejsca w jakim znajduję się kursor w obszarze kafelka produktu.</font></p>
+
+<p><font color="#de350b">Kliknięcie w zdjęcie produktu powoduje przeniesienie do widoku produktu (dokładny opis).</font></p>
+
+<p><font color="#de350b">Wyświetla się dodatkowy pasek z wyborem kolorów - nie ma tego w wymaganiach.</font></p>
+
+<p><font color="#de350b">"Quick view" w przypadku ubraia "HUMMINGBIRD PRINTED SWEATER" pozwala zdefiniować tylko parametr rozmiaru, bez parametru koloru.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>"Quick view" wyświetla się w momencie najechania kursorem na obszar zdjęcia w kafelku produktu.</p>
+
+<p>Kliknięcie w zdjęcie produktu powoduje wyświeltenie powiększonego zdjęcia produktu wraz z opisem zamieszczonym pod zdjęciem.</p>
+
+<p>Brak jest dodatkowych elementów wyświetlajacych się przy odnośniku “Quick view”.</p>
+
+<p>"Quick view" w przypadku ubraia "HUMMINGBIRD PRINTED SWEATER" pozwala zdefiniować parametry rozmiaru i koloru.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
                         [ONLW23-601]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-601">Powiększenie zdjęcia nie działa [WYM-48]</a>
             <span class="subText">
-               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 31/sty/22
+               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 01/lut/22
 
                                             </span>
             </h3>
@@ -225,6 +1817,35 @@ hr.fullcontent
                             </td>
         </tr>
         
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-604">
+                     ONLW23-604                 </a>
+            </td>
+            <td>
+                &quot;Quick view&quot; - problem z podglądem ka...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
     
 
 
@@ -257,7 +1878,7 @@ hr.fullcontent
  <em>● Aby wyłączyć powiększenie należy kliknąć na dowolne miejsce w przeglądarce poza</em> <em>zdjęciem</em></p>
 <ol>
 	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
-	<li>wybierz jeden z produktów i klinkij na jego zdjęcie</li>
+	<li>wybierz jeden z produktów i kliknij na jego zdjęcie</li>
 	<li>po otwarciu karty produktu kliknij na jego zdjęcie</li>
 </ol>
 
@@ -266,13 +1887,13 @@ hr.fullcontent
 
 <p><font color="#de350b">Po kliknięciu na zdjęcie produktu w kafelku nie otwiera się jego zdjęcie, zostajemy przeniesieni do karty z opisem produktu.</font></p>
 
-<p><font color="#de350b">Powiększenie zdjęcia w karcie produku nie działa.</font></p>
+<p><font color="#de350b">Powiększenie zdjęcia w karcie produktu nie działa.</font></p>
 
 <p><b>Rezultat oczekiwany:</b></p>
 
 <p>Po kliknięciu na zdjęcie produktu w kafelku otwiera się jego zdjęcie wraz z opisem.</p>
 
-<p>Powiększenie zdjęcia w kafelkach oraz w karcie produku działa.</p>
+<p>Powiększenie zdjęcia w kafelkach oraz w karcie produktu działa.</p>
             <br/>
         </td>
     </tr>
@@ -1151,7 +2772,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-596]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-596">Błąd w opisie wymagań [WYM-44]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 30/sty/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 01/lut/22
 
                                             </span>
             </h3>
@@ -5115,7 +6736,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-575]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-575">Widok &quot;All products&quot; nie wyświetla się poprawnie [WYM-21]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 30/sty/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 01/lut/22
 
                                             </span>
             </h3>
@@ -5262,6 +6883,35 @@ hr.fullcontent
                             </td>
         </tr>
         
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-608">
+                     ONLW23-608                 </a>
+            </td>
+            <td>
+                Nierówne marginesy boczne przy zdjęci...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
     
 
 
@@ -9810,7 +11460,7 @@ hr.fullcontent
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Mon Jan 31 00:15:51 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Tue Feb 01 15:45:02 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>
