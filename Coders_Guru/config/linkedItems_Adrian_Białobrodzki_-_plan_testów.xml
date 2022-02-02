@@ -11,7 +11,7 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF1 - rejestracja użytkownika prywatnego]]></name>
+			<name><![CDATA[W-FUN.1 - rejestracja użytkownika prywatnego]]></name>
 			<externalid><![CDATA[10]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10000]]></execution_order>
@@ -23,7 +23,7 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF2 - rejestracja użytkownika firmowego]]></name>
+			<name><![CDATA[W-FUN.2 - rejestracja użytkownika firmowego]]></name>
 			<externalid><![CDATA[30]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10010]]></execution_order>
@@ -35,7 +35,7 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF3 - logowanie zarejestrowanego użytkownika]]></name>
+			<name><![CDATA[W-FUN.3 - logowanie zarejestrowanego użytkownika]]></name>
 			<externalid><![CDATA[49]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10020]]></execution_order>
@@ -47,7 +47,7 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF6 - filtrowanie i wyszukiwanie mentorów kursów]]></name>
+			<name><![CDATA[W-FUN.6 - filtrowanie i wyszukiwanie mentorów kursów]]></name>
 			<externalid><![CDATA[82]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10030]]></execution_order>
@@ -59,7 +59,7 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF7 - profil wykładowcy]]></name>
+			<name><![CDATA[W-FUN.7 - profil wykładowcy]]></name>
 			<externalid><![CDATA[89]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10040]]></execution_order>
@@ -71,7 +71,7 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF8 - cennik konsultacji]]></name>
+			<name><![CDATA[W-FUN.8 - cennik konsultacji]]></name>
 			<externalid><![CDATA[94]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10050]]></execution_order>
@@ -83,10 +83,190 @@
 			<name><![CDATA[]]></name>
 		</platform>
 		<testcase>
-			<name><![CDATA[WF9 - regulamin]]></name>
+			<name><![CDATA[W-FUN.9 - regulamin]]></name>
 			<externalid><![CDATA[100]]></externalid>
 			<version><![CDATA[1]]></version>
 			<execution_order><![CDATA[10060]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-INT.1 - integracja z systemem płatności on-line]]></name>
+			<externalid><![CDATA[123]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10000]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-UX.1 - standard systemu HTML5]]></name>
+			<externalid><![CDATA[124]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10010]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-UX.2 - standard systemu CSS]]></name>
+			<externalid><![CDATA[125]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10020]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-UX.3 - standard przeglądarek]]></name>
+			<externalid><![CDATA[126]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10030]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-UX.4 - standard urządzeń mobilnych]]></name>
+			<externalid><![CDATA[127]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10040]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-BD.1 - baza danych SQL]]></name>
+			<externalid><![CDATA[128]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10050]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-WYD.1 - obciążenie systemu]]></name>
+			<externalid><![CDATA[129]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10060]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-BEZ.1 - wymagania RODO]]></name>
+			<externalid><![CDATA[130]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10070]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-BEZ.2 - zmiana hasła]]></name>
+			<externalid><![CDATA[131]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10080]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-BEZ.3 - walidacja hasła]]></name>
+			<externalid><![CDATA[132]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[10090]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-FUN.4 - oznaczanie dostępności mentorów]]></name>
+			<externalid><![CDATA[133]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[70]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-FUN.5 - wybór mentorów z listy]]></name>
+			<externalid><![CDATA[134]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[80]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-FUN.10 - potwierdzenie danych kontaktowych]]></name>
+			<externalid><![CDATA[135]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[90]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-FUN.11 - zarządzanie profilem klienta]]></name>
+			<externalid><![CDATA[136]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[100]]></execution_order>
+		</testcase>
+</link>
+
+	<link>
+		<platform>
+			<name><![CDATA[]]></name>
+		</platform>
+		<testcase>
+			<name><![CDATA[W-FUN.12 - eksport konsultacji do iCalendar]]></name>
+			<externalid><![CDATA[137]]></externalid>
+			<version><![CDATA[1]]></version>
+			<execution_order><![CDATA[110]]></execution_order>
 		</testcase>
 </link>
 

@@ -1,12 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite id="200902" name="Adrian Białobrodzki - zestaw testów" >
 <node_order><![CDATA[11]]></node_order>
-<details><![CDATA[]]></details> 
+<details><![CDATA[<p>Podane przypadki obejmują wymagania funkcjonalne i niefunkcjonalne dla platformy Coders Guru.</p>
+]]></details> 
+<testsuite id="203055" name="Adrian Białobrodzki - testy funkcjonalne" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<p>Testy funkcjonalne obejmują wymagania:<br />
+- W-FUN.1 -- Rejestracja użytkownika prywatnego<br />
+- W-FUN.2 --&nbsp;Rejestracja użytkownika firmowego<br />
+- W-FUN.3 -- Logowanie zarejestrowanego użytkownika<br />
+- W-FUN.4 -- Oznaczanie dostepności mentor&oacute;w<br />
+- W-FUN.5 -- Wyb&oacute;r mentor&oacute;w z listy<br />
+- W-FUN.6 -- Filtrowanie i wyszukiwanie mentor&oacute;w kurs&oacute;w<br />
+- W-FUN.7 -- Profil wykładowcy<br />
+- W-FUN.8 -- Cennik konsultacji<br />
+- W-FUN.9 -- Regulamin<br />
+- W-FUN.10 -- Potwierdzenie danych kontaktowych<br />
+- W-FUN.11 -- Zarządzanie profilem klienta<br />
+- W-FUN.12 -- Eksport konsutlacji do iCalendar</p>
+]]></details> 
 
-<testcase internalid="200931" name="WF1 - rejestracja użytkownika prywatnego">
-	<node_order><![CDATA[1000]]></node_order>
+<testcase internalid="201227" name="W-FUN.9 - regulamin">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[100]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawności, czy&nbsp;podstrona Regulamin zawiera regulamin usługi (wymaganie <strong>W-FUN.9</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Po przewinięciu w d&oacute;ł strony, w&nbsp;dolnym pasku nawigacyjnym znajdź pole/przycisk &quot;Regulamin&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przycisk &quot;Regulamin&quot; jest dostępny.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij przycisk &quot;Regulamin&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Następuje przekierowanie do podstrony Regulamin.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="201211" name="W-FUN.8 - cennik konsultacji">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[94]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawności, czy&nbsp;podstrona Cennik zawiera informację o cenie konsultacji (wymaganie <strong>W-FUN.8</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>W g&oacute;rnym pasku nawigacyjnym znajdź pole/przycisk &quot;Cennik&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przycisk &quot;Cennik&quot; jest widoczny.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij przycisk &quot;Cennik&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Następuje przekierowanie do podstrony Cennik.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="201195" name="W-FUN.7 - profil wykładowcy">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[89]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawności&nbsp;profilu wykładowcy, czy zawiera zdjęcie, doświadczenie, technologie oraz najbliższe wolne termin (wymaganie <strong>W-FUN.7</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest&nbsp;zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Kliknij w podstronę &quot;Wykładowcy&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie pełnej listy wykładowc&oacute;w.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wybierz nazwisko jednego z wykładowc&oacute;w:</p>
+
+<ul>
+	<li>Wykładowca 1</li>
+	<li>Wykładowca 2</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie pełnego profilu wykładowcy: zdjęcie, doświadczenie, technologia, wolne&nbsp;terminy.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="201172" name="W-FUN.6 - filtrowanie i wyszukiwanie mentorów kursów">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[82]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie możliwości poprawnego&nbsp;filtrowania / wyszukiwania mentor&oacute;w według kurs&oacute;w (wymaganie <strong>W-FUN.6</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wybierz Technologię i kliknij w podstronę &quot;Mentorzy&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie pełnej listy mentor&oacute;w.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>W oknie &quot;Filtruj&quot; wybierz&nbsp;jedną z nazw kursu:</p>
+
+<ul>
+	<li>Tester manulany</li>
+	<li>Tester automatyczny</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie listy mentor&oacute;w z wybranego kursu.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="201071" name="W-FUN.3 - logowanie zarejestrowanego użytkownika">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[49]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Sprawdzenie poprawnego logowania zarejetrowanego użytkownika (wymaganie <strong>W-FUN.3</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- aktywne pola formularza logowania</p>
+
+<p>- użytkownik jest zarejestrowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Uzupełnij pola formularza poprawnymi danymi:</p>
+
+<ul>
+	<li>Pole &#39;e-mail&#39;: <em>nowak@gmail.com</em></li>
+	<li>Pole &#39;hasło&#39;: <em>hasło</em></li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Zaznacz checkbox &quot;zapamiętaj mnie&quot; i kliknij &quot;zaloguj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Użytkownik zostaje zalogowany.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="201016" name="W-FUN.2 - rejestracja użytkownika firmowego">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Walidacja formularza rejestracyjnego firmowego (wymaganie <strong>W-FUN.2</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony&nbsp;Coders Guru</p>
+
+<p>- aktywne pola formularza rejestracyjnego</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Uzupełnij pola formularza poprawnymi danymi zgodnie w wymaganiem W-FUN2:</p>
+
+<p>&bull; Pole &lsquo;Imię&rsquo; - minimum 2 znaku<br />
+&bull; Pole &lsquo;Nazwisko&rsquo; - minimum 2 znaku<br />
+&bull; Pole &lsquo;Hasło&rsquo; - minimum 5 znak&oacute;w<br />
+&bull; Pole &lsquo;Miasto- - minimum 2 znaki<br />
+&bull; Pole &lsquo;Kod pocztowy&rsquo; - format 00-000<br />
+&bull; Pole &lsquo;Ulica&rsquo; - minimum 2 znaku<br />
+&bull; Pole &lsquo;NIP&rsquo; - ciąg 10 cyfr</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Zaznacz checkbox &quot;zapoznałem się z regulaminem&quot; i kliknij &quot;zarejestruj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Użytkownik zostaje zarejestrowany i zalogowany.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="200931" name="W-FUN.1 - rejestracja użytkownika prywatnego">
+	<node_order><![CDATA[6]]></node_order>
 	<externalid><![CDATA[10]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-10]]></fullexternalid>
 	<version><![CDATA[1]]></version>
 	<summary><![CDATA[<p>Możliwość zarejestrowania użytkownika prywatnego (wymaganie <strong>W-FUN.1</strong>).</p>
 ]]></summary>
@@ -57,103 +316,11 @@
 </steps>
 </testcase>
 
-<testcase internalid="201016" name="WF2 - rejestracja użytkownika firmowego">
-	<node_order><![CDATA[1001]]></node_order>
-	<externalid><![CDATA[30]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-30]]></fullexternalid>
+<testcase internalid="203096" name="W-FUN.4 - oznaczanie dostępności mentorów">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[133]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Walidacja formularza rejestracyjnego firmowego (wymaganie <strong>W-FUN.2</strong>).</p>
-]]></summary>
-	<preconditions><![CDATA[<p>- dostęp do strony&nbsp;Coders Guru</p>
-
-<p>- aktywne pola formularza rejestracyjnego</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-<steps>
-<step>
-	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Uzupełnij pola formularza poprawnymi danymi zgodnie w wymaganiem W-FUN2:</p>
-
-<p>&bull; Pole &lsquo;Imię&rsquo; - minimum 2 znaku<br />
-&bull; Pole &lsquo;Nazwisko&rsquo; - minimum 2 znaku<br />
-&bull; Pole &lsquo;Hasło&rsquo; - minimum 5 znak&oacute;w<br />
-&bull; Pole &lsquo;Miasto- - minimum 2 znaki<br />
-&bull; Pole &lsquo;Kod pocztowy&rsquo; - format 00-000<br />
-&bull; Pole &lsquo;Ulica&rsquo; - minimum 2 znaku<br />
-&bull; Pole &lsquo;NIP&rsquo; - ciąg 10 cyfr</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Zaznacz checkbox &quot;zapoznałem się z regulaminem&quot; i kliknij &quot;zarejestruj&quot;.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Użytkownik zostaje zarejestrowany i zalogowany.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-</steps>
-</testcase>
-
-<testcase internalid="201071" name="WF3 - logowanie zarejestrowanego użytkownika">
-	<node_order><![CDATA[1002]]></node_order>
-	<externalid><![CDATA[49]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-49]]></fullexternalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Sprawdzenie poprawnego logowania zarejetrowanego użytkownika (wymaganie <strong>W-FUN.3</strong>).</p>
-]]></summary>
-	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
-
-<p>- aktywne pola formularza logowania</p>
-
-<p>- użytkownik jest zarejestrowany</p>
-]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
-	<importance><![CDATA[3]]></importance>
-	<estimated_exec_duration></estimated_exec_duration>
-	<status>1</status>
-	<is_open>1</is_open>
-	<active>1</active>
-<steps>
-<step>
-	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Uzupełnij pola formularza poprawnymi danymi:</p>
-
-<ul>
-	<li>Pole &#39;e-mail&#39;: <em>nowak@gmail.com</em></li>
-	<li>Pole &#39;hasło&#39;: <em>hasło</em></li>
-</ul>
-]]></actions>
-	<expectedresults><![CDATA[<p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Zaznacz checkbox &quot;zapamiętaj mnie&quot; i kliknij &quot;zaloguj&quot;.</p>
-]]></actions>
-	<expectedresults><![CDATA[<p>Użytkownik zostaje zalogowany.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-</steps>
-</testcase>
-
-<testcase internalid="201172" name="WF6 - filtrowanie i wyszukiwanie mentorów kursów">
-	<node_order><![CDATA[1003]]></node_order>
-	<externalid><![CDATA[82]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-82]]></fullexternalid>
-	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Sprawdzenie możliwości poprawnego&nbsp;filtrowania / wyszukiwania mentor&oacute;w według kurs&oacute;w (wymaganie <strong>W-FUN.6</strong>).</p>
+	<summary><![CDATA[<p>Możliwość oznaczenia dni i godzin dostępności poszczeg&oacute;lnych mentor&oacute;w (z poziomu bazy danych)&nbsp;(wymaganie&nbsp;<strong>W-FUN.4</strong>).</p>
 ]]></summary>
 	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
 
@@ -168,41 +335,380 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Wybierz Technologię i kliknij w podstronę &quot;Mentorzy&quot;.</p>
+	<actions><![CDATA[<p>Wybierz Technologię i kliknij w podstronę &quot;Znajdź mentora&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Wyświetlenie pełnej listy mentor&oacute;w.</p>
+	<expectedresults><![CDATA[<p>Wyświetlenie listy mentor&oacute;w danej technologii.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>W oknie &quot;Filtruj&quot; wybierz&nbsp;jedną z nazw kursu:</p>
-
-<ul>
-	<li>Tester manulany</li>
-	<li>Tester automatyczny</li>
-</ul>
+	<actions><![CDATA[<p>Wybierz jednego z mentor&oacute;w i wciśnij przycisk &quot;Rezerwuj&quot;.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Wyświetlenie listy mentor&oacute;w z wybranego kursu.</p>
+	<expectedresults><![CDATA[<p>Wyświeltenie formularza rejestracyjnego dla wybranego mentora.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wybierz termin (datę i godzinę) spotkania i kliknij &quot;Zam&oacute;w i płacę&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Zarezerwowanie spotkania z wybranym mentorem.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 </steps>
 </testcase>
 
-<testcase internalid="201195" name="WF7 - profil wykładowcy">
+<testcase internalid="203100" name="W-FUN.5 - wybór mentorów z listy">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[134]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Możliwość wybrania mentora z listy dostępnych mentor&oacute;w (wymaganie <strong>W-FUN.5</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wybierz Technologię i kliknij w podstronę &quot;Znajdź mentora&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie listy mentor&oacute;w danej technologii.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wybierz jednego z mentor&oacute;w i wciśnij przycisk &quot;Rezerwuj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświeltenie formularza rejestracyjnego dla wybranego mentora.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203102" name="W-FUN.10 - potwierdzenie danych kontaktowych">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[135]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System, po zalogowaniu a przed przejściem do profilu, wyświetla komunikat dotyczący konieczności potwierdzenia aktualności danych kontaktowych (wymagania <strong>W-FUN.10</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- zarejestrowany użytkownik jest niezalogowany</p>
+
+<p>- widok strony gł&oacute;wnej</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Z g&oacute;rnego panelu nawigacyjnego, w&nbsp;prawy g&oacute;rnym rogu strony kliknij przycisk &quot;Zaloguj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie panelu logowania.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Uzupełnij dane (e-mail oraz hasło) oraz kliknij przycisk &quot;Zaloguj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie komunikatu z prośbą o aktualizację danych kontaktowych: &quot;Drogi użytkowniku, potwierdź swoje dane kontaktowe&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Wpisz nowe dane kontaktowe w wymaganych polach lub potwierdź już istniejące klikając przycisk &quot;Ok&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Użytkownik zostaje zalogowany i przeniesiony do strony z formularzem wyboru Technologii i Mentora.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203104" name="W-FUN.11 - zarządzanie profilem klienta">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[136]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System umożliwia zarządzanie profilem klienta &bdquo;Moje konto&rdquo; (wymaganie <strong>W-FUN.11</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Kliknij w &quot;zieloną zębatkę&quot; w prawym g&oacute;rnym rogu strony, obok imienia użytkownika.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie użytkownika do ustawień profilu&nbsp;konta użytkownika.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij przycisk &quot;Edytuj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie do formularza umożliwiającego edycję danych użytkownika.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Zmień wybrane dane i zatwierdź przyciskiem &quot;Zapisz&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Zapisanie zmian w danych konta użytkownika.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203108" name="W-FUN.12 - eksport konsultacji do iCalendar">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[137]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System umożliwia eksport zaplanowanych konsultacji do formatu iCalendar (wymaganie <strong>W-FUN.12</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wybierz zakładkę &quot;Moje rezerwacje&quot; z g&oacute;rnego panelu strony.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie listy rezerwacji użytkownika.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Przy wybranym spotkaniu&nbsp;kliknij przycisk &quot;Dodaj do kalendarza&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Dodanie wybranych konsultacji do kalendarza iCalendar.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="203064" name="Adrian Białobrodzki - testy niefunkcjonalne" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[<p>Testy niefunkcjonalne obejmują wymagania:<br />
+- W-INT.1 -- Integracja z systemem płatności on-line<br />
+- W-UX.1 -- Standard systemu HTML5<br />
+- W-UX.2 --&nbsp;Standard systemu CSS<br />
+- W-UX.3 -- Standard przeglądarek<br />
+- W-UX.4 -- Standard urządzeń mobilnych<br />
+- W-BD.1 -- Baza danych SQL<br />
+- W-WYD.1 -- Obciążenie systemu<br />
+- W-BEZ.1 -- Wymagania RODO<br />
+- W-BEZ.2 -- Zmiana hasła<br />
+- W-BEZ.3 -- Walidacja hasła</p>
+]]></details> 
+
+<testcase internalid="203069" name="W-INT.1 - integracja z systemem płatności on-line">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[123]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Integracja z systemem płatności on-line (wymaganie <strong>W-INT.1</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Wybierz technologię i kliknij &quot;Znajdź mentora&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie do listy mentor&oacute;w dla wybranej technologii.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Wybierz jednego z mentor&oacute;w i kliknij przycisk &quot;Rezerwuj&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie do formularza rezerwacji konsultacji z mentorem.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Zaznacz termin i godzinę spotkania, opisz problem w polu wiadomości, następnie kliknij przycisk &quot;Zamawiam i płacę&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie do zakładki PayU pozwalającej zrealizować płatność.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Wybierz jeden z trzech dostępnych bank&oacute;w i dokonaj płatności.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Spotkanie zostało opłacone, o czym informuje stosowny komunikat oraz informacje w zakładce &quot;Moje rezerwacje&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203071" name="W-UX.1 - standard systemu HTML5">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[124]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System powinien spełniać wymagane standardy W3C w kontekście struktury dokumentu HTML5 (wymaganie <strong>W-UX.1</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia Markup Validation&nbsp;Service --&gt; https://validator.w3.org/#validate_by_uri+with_options</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>w narzędziu&nbsp;Markup Validation Service wybrać:<br />
+-&nbsp;odpowiednie ustawienia testowania:&nbsp;&quot;Validate by URL&quot;,<br />
+-&nbsp;określić&nbsp;typ dokumentu: &quot;HTML5 (experimental)&quot;,<br />
+- w polu&nbsp;<em>Address</em> podać adres url strony&nbsp;Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Check&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie raportu zawierającego ocenę zgodności systemu ze strukturą&nbsp;dokumentu HTML5.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203073" name="W-UX.2 - standard systemu CSS">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[125]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System powinien spełniać wymagane standardy W3C w kontekście wyglądu i struktury layoutu CSS 3.0 lub nowszej (wymaganie <strong>W-UX.2</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia CSS&nbsp;Validation Service --&gt; http://jigsaw.w3.org/css-validator/#validate_by_uri+with_options</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>w narzędziu CSS Validation Service wybrać:<br />
+- odpowiednie ustawienia testowania: &quot;Validate by URL&quot;,<br />
+- określić profil: &quot;CSS Level 3 + SVG&quot;,<br />
+- w polu <em>Address</em> podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Check&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie raportu zawierającego ocenę zgodności systemu ze strukturą dokumentu CSS 3.0 lub nowszej.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203075" name="W-UX.3 - standard przeglądarek">
+	<node_order><![CDATA[1003]]></node_order>
+	<externalid><![CDATA[126]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System umożliwia dostęp do wszystkich funkcjonalności portalu poprzez przeglądarkę internetową (wymagane <strong>W-UX.3</strong>):<br />
+&bull; GUI Systemu musi być poprawnie interpretowany i wyświetlany przez przeglądarki IE, Chrome, Firefox, Safari, Opera oraz ich odpowiednik w wersjach mobilnych wspieranych przez producent&oacute;w na moment odbioru Systemu.<br />
+&bull; Graficzny interfejs użytkownika (GUI) Systemu jest dostępny za pośrednictwem przeglądarki internetowej.<br />
+&bull; Interfejs sytemu jest skalowalny do r&oacute;żnych rozdzielczości ekranu (responsywny)</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia WebPageTest --&gt; https://www.webpagetest.org/</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>w narzędziu WebPageTest&nbsp;wybrać:<br />
+- odpowiednie ustawienia testowania: &quot;desktop&quot;,<br />
+- określić rodzaj przeglądarki (można skorzystać z opcji &quot;Simple Configuration&quot; lub dodać własne urządzenia w zakładce &quot;Advanced Configuration&quot;)<br />
+- w polu <em>Enter a website URL</em>, podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Start Test&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie raportu zawierającego ocenę funkcjonalności portalu dla r&oacute;żnych przeglądarek.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203077" name="W-UX.4 - standard urządzeń mobilnych">
 	<node_order><![CDATA[1004]]></node_order>
-	<externalid><![CDATA[89]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-89]]></fullexternalid>
+	<externalid><![CDATA[127]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Sprawdzenie porpawności&nbsp;profilu wykładowcy, czy zawiera zdjęcie, doświadczenie, technologie oraz najbliższe wolne termin (wymaganie <strong>W-FUN.7</strong>).</p>
+	<summary><![CDATA[<p>System jest przystosowany do wyświetlania treści na r&oacute;żnorodnych urządzeniach mobilnych. Urządzeniami tymi mogą być telefony kom&oacute;rkowe, smartfony czy tablety. System będzie wyświetlany na urządzeniach mobilnych z wykorzystaniem RWD (Responsive Web Design). Nie jest wymagane przystosowanie panelu administracyjnego do urządzeń mobilnych (wymaganie <strong>W-UX.4</strong>).</p>
 ]]></summary>
 	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
 
-<p>- użytkownik jest&nbsp;zalogowany</p>
+<p>- dostęp do narzędzia WebPageTest --&gt; https://www.webpagetest.org/</p>
 ]]></preconditions>
-	<execution_type><![CDATA[1]]></execution_type>
+	<execution_type><![CDATA[2]]></execution_type>
 	<importance><![CDATA[3]]></importance>
 	<estimated_exec_duration></estimated_exec_duration>
 	<status>1</status>
@@ -211,37 +717,30 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Kliknij w podstronę &quot;Wykładowcy&quot;.</p>
+	<actions><![CDATA[<p>&nbsp;w narzędziu WebPageTest wybrać:<br />
+- odpowiednie ustawienia testowania: &quot;mobile&quot;,<br />
+- określić rodzaj przeglądarki (można skorzystać z opcji &quot;Simple Configuration&quot; lub dodać własne urządzenia w zakładce &quot;Advanced Configuration&quot;)<br />
+- w polu <em>Enter a website URL</em>, podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Start Test&quot;</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Wyświetlenie pełnej listy wykładowc&oacute;w.</p>
+	<expectedresults><![CDATA[<p>Wyświetlenie raportu zawierającego ocenę funkcjonalności portalu na r&oacute;żnych urządzeniach mobilnych.</p>
 ]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
-</step>
-
-<step>
-	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Wybierz nazwisko jednego z wykładowc&oacute;w:</p>
-
-<ul>
-	<li>Wykładowca 1</li>
-	<li>Wykładowca 2</li>
-</ul>
-]]></actions>
-	<expectedresults><![CDATA[<p>Wyświetlenie pełnego profilu wykładowcy: zdjęcie, doświadczenie, technologia, wolne&nbsp;terminy.</p>
-]]></expectedresults>
-	<execution_type><![CDATA[1]]></execution_type>
+	<execution_type><![CDATA[2]]></execution_type>
 </step>
 </steps>
 </testcase>
 
-<testcase internalid="201211" name="WF8 - cennik konsultacji">
+<testcase internalid="203079" name="W-BD.1 - baza danych SQL">
 	<node_order><![CDATA[1005]]></node_order>
-	<externalid><![CDATA[94]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-94]]></fullexternalid>
+	<externalid><![CDATA[128]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Sprawdzenie porawności, czy&nbsp;podstrona Cennik zawiera informację o cenie konsultacji (wymaganie <strong>W-FUN.8</strong>).</p>
+	<summary><![CDATA[<p>Zamawiający wymaga zastosowania jednego z silnik&oacute;w baz danych z językiem SQL na licencji Open Source (wymaganie <strong>W-BD.1</strong>).</p>
 ]]></summary>
 	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do bazy danych SQL (MySQL Workbench)</p>
+
+<p>- użytkownik jest zalogowany</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[3]]></importance>
@@ -252,32 +751,76 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>W g&oacute;rnym pasku nawigacyjnym znajdź pole/przycisk &quot;Cennik&quot;.</p>
+	<actions><![CDATA[<p>Za pomocą storny Coders Guru dokonaj&nbsp;rezerwacji konsultacji z mentorem od wybranej technologii.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Przycisk &quot;Cennik&quot; jest widoczny.</p>
+	<expectedresults><![CDATA[<p>Brak widocznego spotkania w zakładce &quot;Moje rezerwacja&quot;.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Kliknij przycisk &quot;Cennik&quot;.</p>
+	<actions><![CDATA[<p>Przy użyciu danych logowania do bazy wykorzystując MySQL Workbench:<br />
+<em>Host DB: tester.codersguru.pl<br />
+Port: 7306<br />
+User: tester<br />
+Password: CodersGuru2017!</em><br />
+zmień statusy płatności (paid = 1).</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Następuje przekierowanie do podstrony Cennik.</p>
+	<expectedresults><![CDATA[<p>Dodane konsultacje mają status &quot;opłacone&quot; i oczekują na realizację.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 </steps>
 </testcase>
 
-<testcase internalid="201227" name="WF9 - regulamin">
+<testcase internalid="203081" name="W-WYD.1 - obciążenie systemu">
 	<node_order><![CDATA[1006]]></node_order>
-	<externalid><![CDATA[100]]></externalid>
-	<fullexternalid><![CDATA[ONLW23-100]]></fullexternalid>
+	<externalid><![CDATA[129]]></externalid>
 	<version><![CDATA[1]]></version>
-	<summary><![CDATA[<p>Sprawdzenie porpawności, czy&nbsp;podstrona Regulamin zawiera regulamin usługi (wymaganie <strong>W-FUN.9</strong>).</p>
+	<summary><![CDATA[<p>Dla systemu z 500 jednocześnie zalogowanymi i obciążającymi system wg scenariusza użytkownikami dowolna strona systemu musi (wymaganie <strong>W-WYD.1</strong>):<br />
+&bull; generować mniej niż 60 żądań http na sekundę,<br />
+&bull; wczytywać się poniżej 2 sekund,<br />
+&bull; w teście PageSpeed osiągać wynik nie mniejszy niż 82%,<br />
+&bull; w teście YSlow osiągać wynik nie mniejszy niż 86%,<br />
+Narzędzie kt&oacute;rym zostaną dokonane pomiary przy odbiorze szablonu https://gtmetrix.com.</p>
 ]]></summary>
 	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia GTmetrix --&gt; https://gtmetrix.com/</p>
+]]></preconditions>
+	<execution_type><![CDATA[2]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>w narzędziu GTmetrix&nbsp;wybrać:<br />
+- wybrać ustawienia testowania<br />
+- w polu <em>Enter&nbsp;URL to Analyze</em>, podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Test your site&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Wyświetlenie raportu zawierającego ocenę parametr&oacute;w obciążeniowych portalu.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[2]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203083" name="W-BEZ.1 - wymagania RODO">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[130]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>System musi spełniać wszystkie wymagania wynikające z dyrektywy RODO (Rozporządzenia o Ochronie Danych Osobowych) ang. GDPR (General Data Protection Regulation) (wymaganie <strong>W-BEZ.1</strong>).</p>
+
+<p>W tym przypadku, może być konieczny audyt zwenętrzny lub testy przeprowadzone przez certyfikowaną organizację zewnętrzną (ten test ma na celu sprawdzenie dostępności regulaminu i jego zgodności z og&oacute;lnymi wymaganiami).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do strony GDPR (lub podobnej) --&gt; https://gdpr.pl/baza-wiedzy/akty-prawne/interaktywny-tekst-gdpr</p>
 ]]></preconditions>
 	<execution_type><![CDATA[1]]></execution_type>
 	<importance><![CDATA[3]]></importance>
@@ -288,21 +831,121 @@
 <steps>
 <step>
 	<step_number><![CDATA[1]]></step_number>
-	<actions><![CDATA[<p>Po przewinięciu w d&oacute;ł strony, w&nbsp;dolnym pasku nawigacyjnym znajdź pole/przycisk &quot;Regulamin&quot;.</p>
+	<actions><![CDATA[<p>Kliknij &quot;Regulamin&quot; znajdujący się w dolnym panelu strony gł&oacute;wnej.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Przycisk &quot;Regulamin&quot; jest dostępny.</p>
+	<expectedresults><![CDATA[<p>Wyświetlenie regulaminu świadczenia usługi.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 
 <step>
 	<step_number><![CDATA[2]]></step_number>
-	<actions><![CDATA[<p>Kliknij przycisk &quot;Regulamin&quot;.</p>
+	<actions><![CDATA[<p>Por&oacute;wanie zapis&oacute;w regulaminu usługi z dyrektywą GDPR.</p>
 ]]></actions>
-	<expectedresults><![CDATA[<p>Następuje przekierowanie do podstrony Regulamin.</p>
+	<expectedresults><![CDATA[<p>Sprawdzenie zgodności zapis&oacute;w regulaminu.</p>
 ]]></expectedresults>
 	<execution_type><![CDATA[1]]></execution_type>
 </step>
 </steps>
 </testcase>
-</testsuite>
+
+<testcase internalid="203085" name="W-BEZ.2 - zmiana hasła">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[131]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Możliwość samodzielnej zmiany hasła (wymaganie <strong>W-BEZ.2</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Kliknij w &quot;zieloną zębatkę&quot; w prawym g&oacute;rnym rogu strony, obok imienia użytkownika.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie użytkownika do ustawień profilu konta użytkownika.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij przycisk &quot;Zmień hasło&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pojawienie się formularza do zmiany hasła.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Uzupełnij pola formularza:<br />
+-&nbsp;podaj <em>Obecne hasło</em><br />
+- podaj <em>Nowe hasło</em><br />
+- <em>Powt&oacute;rz nowe hasło</em><br />
+zatwierdź klikając przycisk &quot;Zmień&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Nad formularzem pojawi się komunikat: &quot;Hasło zostało zmienione&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="203087" name="W-BEZ.3 - walidacja hasła">
+	<node_order><![CDATA[1009]]></node_order>
+	<externalid><![CDATA[132]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Walidację haseł niedopuszczalnych: pustych, takich samych jak nazwa użytkownika, kt&oacute;rych częścią jest imię i nazwisko użytkownika lub nazwa podmiotu gospodarczego (wymaganie <strong>W-BEZ.3</strong>).</p>
+]]></summary>
+	<preconditions><![CDATA[<p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[3]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Kliknij w &quot;zieloną zębatkę&quot; w prawym g&oacute;rnym rogu strony, obok imienia użytkownika.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Przeniesienie użytkownika do ustawień profilu konta użytkownika.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij przycisk &quot;Zmień hasło&quot;.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Pojawienie się formularza do zmiany hasła.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Uzupełnij pola formularza - dla konta &quot;xxxxx@gmail.com&quot;<br />
+- podaj <em>Obecne hasło</em>:<em>&nbsp;</em>&quot;xxxxx&quot;<br />
+- podaj <em>Nowe hasło</em>:<em>&nbsp;</em>&quot;xxx&quot; lub &quot;xxxxx&quot; lub&nbsp; &quot;xxxxx@gmail.com&quot;<br />
+- <em>Powt&oacute;rz nowe hasło</em>:&nbsp;&quot;xxx&quot; lub &quot;xxxxx&quot; lub&nbsp; &quot;xxxxx@gmail.com&quot;<br />
+zatwierdź klikając przycisk &quot;Zmień&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Nad formularzem pojawi się komunikat o niemożliwości zmiany hasła np.: &quot;Hasło musi mieć powyżej 5 znak&oacute;w&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuite>

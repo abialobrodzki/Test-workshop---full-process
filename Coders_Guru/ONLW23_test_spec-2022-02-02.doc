@@ -1,0 +1,514 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testspec ONL_TEM_W_23 - Adrian Białobrodzki - zestaw testów</title>
+<link type="text/css" rel="stylesheet" href="https://testlink-kurs.coderslab.pl/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="https://testlink-kurs.coderslab.pl/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Specyfikacja testowa</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Projekt testowy: ONL_TEM_W_23<br/>Zestaw testów: ONL_TEM_W_23 - Adrian Białobrodzki - zestaw testów</p></div>
+<div class="summary"><p id="printedby">Wydrukowany przez TestLink dnia 02.02.2022</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Spis treści</h1><div class="toc"><p style="padding-left: 20px;"><b><a href="#toc_1">1.Adrian Białobrodzki - zestaw testów</a></b></p>
+<p style="padding-left: 30px;"><b><a href="#toc_1_1">1.1.Adrian Białobrodzki - testy funkcjonalne</a></b></p>
+<p style="padding-left: 60px;"><a href="#toc_tc201227">ONLW23-100: W-FUN.9 - regulamin</a></p><p style="padding-left: 60px;"><a href="#toc_tc201211">ONLW23-94: W-FUN.8 - cennik konsultacji</a></p><p style="padding-left: 60px;"><a href="#toc_tc201195">ONLW23-89: W-FUN.7 - profil wykładowcy</a></p><p style="padding-left: 60px;"><a href="#toc_tc201172">ONLW23-82: W-FUN.6 - filtrowanie i wyszukiwanie mentorów kursów</a></p><p style="padding-left: 60px;"><a href="#toc_tc201071">ONLW23-49: W-FUN.3 - logowanie zarejestrowanego użytkownika</a></p><p style="padding-left: 60px;"><a href="#toc_tc201016">ONLW23-30: W-FUN.2 - rejestracja użytkownika firmowego</a></p><p style="padding-left: 60px;"><a href="#toc_tc200931">ONLW23-10: W-FUN.1 - rejestracja użytkownika prywatnego</a></p><p style="padding-left: 60px;"><a href="#toc_tc203096">ONLW23-133: W-FUN.4 - oznaczanie dostępności mentorów</a></p><p style="padding-left: 60px;"><a href="#toc_tc203100">ONLW23-134: W-FUN.5 - wybór mentorów z listy</a></p><p style="padding-left: 60px;"><a href="#toc_tc203102">ONLW23-135: W-FUN.10 - potwierdzenie danych kontaktowych</a></p><p style="padding-left: 60px;"><a href="#toc_tc203104">ONLW23-136: W-FUN.11 - zarządzanie profilem klienta</a></p><p style="padding-left: 60px;"><a href="#toc_tc203108">ONLW23-137: W-FUN.12 - eksport konsultacji do iCalendar</a></p><p style="padding-left: 30px;"><b><a href="#toc_1_2">1.2.Adrian Białobrodzki - testy niefunkcjonalne</a></b></p>
+<p style="padding-left: 60px;"><a href="#toc_tc203069">ONLW23-123: W-INT.1 - integracja z systemem płatności on-line</a></p><p style="padding-left: 60px;"><a href="#toc_tc203071">ONLW23-124: W-UX.1 - standard systemu HTML5</a></p><p style="padding-left: 60px;"><a href="#toc_tc203073">ONLW23-125: W-UX.2 - standard systemu CSS</a></p><p style="padding-left: 60px;"><a href="#toc_tc203075">ONLW23-126: W-UX.3 - standard przeglądarek</a></p><p style="padding-left: 60px;"><a href="#toc_tc203077">ONLW23-127: W-UX.4 - standard urządzeń mobilnych</a></p><p style="padding-left: 60px;"><a href="#toc_tc203079">ONLW23-128: W-BD.1 - baza danych SQL</a></p><p style="padding-left: 60px;"><a href="#toc_tc203081">ONLW23-129: W-WYD.1 - obciążenie systemu</a></p><p style="padding-left: 60px;"><a href="#toc_tc203083">ONLW23-130: W-BEZ.1 - wymagania RODO</a></p><p style="padding-left: 60px;"><a href="#toc_tc203085">ONLW23-131: W-BEZ.2 - zmiana hasła</a></p><p style="padding-left: 60px;"><a href="#toc_tc203087">ONLW23-132: W-BEZ.3 - walidacja hasła</a></p></div><a name='toc_1'></a>
+<h1 class='doclevel'>1.Zestaw testów : Adrian Białobrodzki - zestaw testów</h1>
+<div><p>Podane przypadki obejmują wymagania funkcjonalne i niefunkcjonalne dla platformy Coders Guru.</p>
+</div><a name='toc_1_1'></a>
+<h2 class='doclevel'>1.1.Zestaw testów : Adrian Białobrodzki - testy funkcjonalne</h2>
+<div><p>Testy funkcjonalne obejmują wymagania:<br />
+- W-FUN.1 -- Rejestracja użytkownika prywatnego<br />
+- W-FUN.2 --&nbsp;Rejestracja użytkownika firmowego<br />
+- W-FUN.3 -- Logowanie zarejestrowanego użytkownika<br />
+- W-FUN.4 -- Oznaczanie dostepności mentor&oacute;w<br />
+- W-FUN.5 -- Wyb&oacute;r mentor&oacute;w z listy<br />
+- W-FUN.6 -- Filtrowanie i wyszukiwanie mentor&oacute;w kurs&oacute;w<br />
+- W-FUN.7 -- Profil wykładowcy<br />
+- W-FUN.8 -- Cennik konsultacji<br />
+- W-FUN.9 -- Regulamin<br />
+- W-FUN.10 -- Potwierdzenie danych kontaktowych<br />
+- W-FUN.11 -- Zarządzanie profilem klienta<br />
+- W-FUN.12 -- Eksport konsutlacji do iCalendar</p>
+</div><a name="toc_tc201227"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-100: W-FUN.9 - regulamin&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie poprawności, czy&nbsp;podstrona Regulamin zawiera regulamin usługi (wymaganie <strong>W-FUN.9</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Po przewinięciu w d&oacute;ł strony, w&nbsp;dolnym pasku nawigacyjnym znajdź pole/przycisk &quot;Regulamin&quot;.</p>
+</td><td><p>Przycisk &quot;Regulamin&quot; jest dostępny.</p>
+</td></tr><tr><td width="5">2</td><td><p>Kliknij przycisk &quot;Regulamin&quot;.</p>
+</td><td><p>Następuje przekierowanie do podstrony Regulamin.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc201211"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-94: W-FUN.8 - cennik konsultacji&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie poprawności, czy&nbsp;podstrona Cennik zawiera informację o cenie konsultacji (wymaganie <strong>W-FUN.8</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>W g&oacute;rnym pasku nawigacyjnym znajdź pole/przycisk &quot;Cennik&quot;.</p>
+</td><td><p>Przycisk &quot;Cennik&quot; jest widoczny.</p>
+</td></tr><tr><td width="5">2</td><td><p>Kliknij przycisk &quot;Cennik&quot;.</p>
+</td><td><p>Następuje przekierowanie do podstrony Cennik.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc201195"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-89: W-FUN.7 - profil wykładowcy&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie poprawności&nbsp;profilu wykładowcy, czy zawiera zdjęcie, doświadczenie, technologie oraz najbliższe wolne termin (wymaganie <strong>W-FUN.7</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest&nbsp;zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Kliknij w podstronę &quot;Wykładowcy&quot;.</p>
+</td><td><p>Wyświetlenie pełnej listy wykładowc&oacute;w.</p>
+</td></tr><tr><td width="5">2</td><td><p>Wybierz nazwisko jednego z wykładowc&oacute;w:</p>
+
+<ul>
+	<li>Wykładowca 1</li>
+	<li>Wykładowca 2</li>
+</ul>
+</td><td><p>Wyświetlenie pełnego profilu wykładowcy: zdjęcie, doświadczenie, technologia, wolne&nbsp;terminy.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc201172"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-82: W-FUN.6 - filtrowanie i wyszukiwanie mentorów kursów&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie możliwości poprawnego&nbsp;filtrowania / wyszukiwania mentor&oacute;w według kurs&oacute;w (wymaganie <strong>W-FUN.6</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Wybierz Technologię i kliknij w podstronę &quot;Mentorzy&quot;.</p>
+</td><td><p>Wyświetlenie pełnej listy mentor&oacute;w.</p>
+</td></tr><tr><td width="5">2</td><td><p>W oknie &quot;Filtruj&quot; wybierz&nbsp;jedną z nazw kursu:</p>
+
+<ul>
+	<li>Tester manulany</li>
+	<li>Tester automatyczny</li>
+</ul>
+</td><td><p>Wyświetlenie listy mentor&oacute;w z wybranego kursu.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc201071"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-49: W-FUN.3 - logowanie zarejestrowanego użytkownika&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Sprawdzenie poprawnego logowania zarejetrowanego użytkownika (wymaganie <strong>W-FUN.3</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- aktywne pola formularza logowania</p>
+
+<p>- użytkownik jest zarejestrowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Uzupełnij pola formularza poprawnymi danymi:</p>
+
+<ul>
+	<li>Pole &#39;e-mail&#39;: <em>nowak@gmail.com</em></li>
+	<li>Pole &#39;hasło&#39;: <em>hasło</em></li>
+</ul>
+</td><td><p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
+</td></tr><tr><td width="5">2</td><td><p>Zaznacz checkbox &quot;zapamiętaj mnie&quot; i kliknij &quot;zaloguj&quot;.</p>
+</td><td><p>Użytkownik zostaje zalogowany.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc201016"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-30: W-FUN.2 - rejestracja użytkownika firmowego&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Walidacja formularza rejestracyjnego firmowego (wymaganie <strong>W-FUN.2</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony&nbsp;Coders Guru</p>
+
+<p>- aktywne pola formularza rejestracyjnego</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Uzupełnij pola formularza poprawnymi danymi zgodnie w wymaganiem W-FUN2:</p>
+
+<p>&bull; Pole &lsquo;Imię&rsquo; - minimum 2 znaku<br />
+&bull; Pole &lsquo;Nazwisko&rsquo; - minimum 2 znaku<br />
+&bull; Pole &lsquo;Hasło&rsquo; - minimum 5 znak&oacute;w<br />
+&bull; Pole &lsquo;Miasto- - minimum 2 znaki<br />
+&bull; Pole &lsquo;Kod pocztowy&rsquo; - format 00-000<br />
+&bull; Pole &lsquo;Ulica&rsquo; - minimum 2 znaku<br />
+&bull; Pole &lsquo;NIP&rsquo; - ciąg 10 cyfr</p>
+</td><td><p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
+</td></tr><tr><td width="5">2</td><td><p>Zaznacz checkbox &quot;zapoznałem się z regulaminem&quot; i kliknij &quot;zarejestruj&quot;.</p>
+</td><td><p>Użytkownik zostaje zarejestrowany i zalogowany.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc200931"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-10: W-FUN.1 - rejestracja użytkownika prywatnego&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Możliwość zarejestrowania użytkownika prywatnego (wymaganie <strong>W-FUN.1</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony&nbsp;Coders Guru</p>
+
+<p>- aktywne pola formularza rejestracyjnego</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><table>
+	<tbody>
+		<tr>
+			<td>
+			<p>Uzupełnij pola formularza poprawnymi danymi zgodnie w wymaganiem W-FUN1:</p>
+
+			<p>&bull; Pole &lsquo;Imię&rsquo; - minimum 2 znaku<br />
+			&bull; Pole &lsquo;Nazwisko&rsquo; - minimum 2 znaku<br />
+			&bull; Pole &lsquo;Hasło&rsquo; - minimum 5 znak&oacute;w<br />
+			&bull; Pole &lsquo;Miasto- - minimum 2 znaki<br />
+			&bull; Pole &lsquo;Kod pocztowy&rsquo; - format 00-000<br />
+			&bull; Pole &lsquo;Ulica&rsquo; - minimum 2 znaku<br />
+			&bull; format e-mail: nazwa@domena.pl</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</td><td><p>Pola formularza są uzupełnione poprawnie, brak komunikatu błędu.</p>
+</td></tr><tr><td width="5">2</td><td><p>Zaznacz checkbox &quot;zapoznałem się z regulaminem&quot; i kliknij &quot;zarejestruj&quot;.</p>
+</td><td><p>Użytkownik zostaje zarejestrowany i zalogowany.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203096"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-133: W-FUN.4 - oznaczanie dostępności mentorów&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Możliwość oznaczenia dni i godzin dostępności poszczeg&oacute;lnych mentor&oacute;w (z poziomu bazy danych)&nbsp;(wymaganie&nbsp;<strong>W-FUN.4</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Wybierz Technologię i kliknij w podstronę &quot;Znajdź mentora&quot;.</p>
+</td><td><p>Wyświetlenie listy mentor&oacute;w danej technologii.</p>
+</td></tr><tr><td width="5">2</td><td><p>Wybierz jednego z mentor&oacute;w i wciśnij przycisk &quot;Rezerwuj&quot;.</p>
+</td><td><p>Wyświeltenie formularza rejestracyjnego dla wybranego mentora.</p>
+</td></tr><tr><td width="5">3</td><td><p>Wybierz termin (datę i godzinę) spotkania i kliknij &quot;Zam&oacute;w i płacę&quot;.</p>
+</td><td><p>Zarezerwowanie spotkania z wybranym mentorem.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203100"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-134: W-FUN.5 - wybór mentorów z listy&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Możliwość wybrania mentora z listy dostępnych mentor&oacute;w (wymaganie <strong>W-FUN.5</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Wybierz Technologię i kliknij w podstronę &quot;Znajdź mentora&quot;.</p>
+</td><td><p>Wyświetlenie listy mentor&oacute;w danej technologii.</p>
+</td></tr><tr><td width="5">2</td><td><p>Wybierz jednego z mentor&oacute;w i wciśnij przycisk &quot;Rezerwuj&quot;.</p>
+</td><td><p>Wyświeltenie formularza rejestracyjnego dla wybranego mentora.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203102"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-135: W-FUN.10 - potwierdzenie danych kontaktowych&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System, po zalogowaniu a przed przejściem do profilu, wyświetla komunikat dotyczący konieczności potwierdzenia aktualności danych kontaktowych (wymagania <strong>W-FUN.10</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- zarejestrowany użytkownik jest niezalogowany</p>
+
+<p>- widok strony gł&oacute;wnej</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Z g&oacute;rnego panelu nawigacyjnego, w&nbsp;prawy g&oacute;rnym rogu strony kliknij przycisk &quot;Zaloguj&quot;.</p>
+</td><td><p>Wyświetlenie panelu logowania.</p>
+</td></tr><tr><td width="5">2</td><td><p>Uzupełnij dane (e-mail oraz hasło) oraz kliknij przycisk &quot;Zaloguj&quot;.</p>
+</td><td><p>Wyświetlenie komunikatu z prośbą o aktualizację danych kontaktowych: &quot;Drogi użytkowniku, potwierdź swoje dane kontaktowe&quot;.</p>
+</td></tr><tr><td width="5">3</td><td><p>Wpisz nowe dane kontaktowe w wymaganych polach lub potwierdź już istniejące klikając przycisk &quot;Ok&quot;</p>
+</td><td><p>Użytkownik zostaje zalogowany i przeniesiony do strony z formularzem wyboru Technologii i Mentora.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203104"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-136: W-FUN.11 - zarządzanie profilem klienta&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System umożliwia zarządzanie profilem klienta &bdquo;Moje konto&rdquo; (wymaganie <strong>W-FUN.11</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Kliknij w &quot;zieloną zębatkę&quot; w prawym g&oacute;rnym rogu strony, obok imienia użytkownika.</p>
+</td><td><p>Przeniesienie użytkownika do ustawień profilu&nbsp;konta użytkownika.</p>
+</td></tr><tr><td width="5">2</td><td><p>Kliknij przycisk &quot;Edytuj&quot;.</p>
+</td><td><p>Przeniesienie do formularza umożliwiającego edycję danych użytkownika.</p>
+</td></tr><tr><td width="5">3</td><td><p>Zmień wybrane dane i zatwierdź przyciskiem &quot;Zapisz&quot;.</p>
+</td><td><p>Zapisanie zmian w danych konta użytkownika.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203108"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-137: W-FUN.12 - eksport konsultacji do iCalendar&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System umożliwia eksport zaplanowanych konsultacji do formatu iCalendar (wymaganie <strong>W-FUN.12</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Wybierz zakładkę &quot;Moje rezerwacje&quot; z g&oacute;rnego panelu strony.</p>
+</td><td><p>Wyświetlenie listy rezerwacji użytkownika.</p>
+</td></tr><tr><td width="5">2</td><td><p>Przy wybranym spotkaniu&nbsp;kliknij przycisk &quot;Dodaj do kalendarza&quot;.</p>
+</td><td><p>Dodanie wybranych konsultacji do kalendarza iCalendar.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name='toc_1_2'></a>
+<h2 class='doclevel'>1.2.Zestaw testów : Adrian Białobrodzki - testy niefunkcjonalne</h2>
+<div><p>Testy niefunkcjonalne obejmują wymagania:<br />
+- W-INT.1 -- Integracja z systemem płatności on-line<br />
+- W-UX.1 -- Standard systemu HTML5<br />
+- W-UX.2 --&nbsp;Standard systemu CSS<br />
+- W-UX.3 -- Standard przeglądarek<br />
+- W-UX.4 -- Standard urządzeń mobilnych<br />
+- W-BD.1 -- Baza danych SQL<br />
+- W-WYD.1 -- Obciążenie systemu<br />
+- W-BEZ.1 -- Wymagania RODO<br />
+- W-BEZ.2 -- Zmiana hasła<br />
+- W-BEZ.3 -- Walidacja hasła</p>
+</div><a name="toc_tc203069"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-123: W-INT.1 - integracja z systemem płatności on-line&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Integracja z systemem płatności on-line (wymaganie <strong>W-INT.1</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Wybierz technologię i kliknij &quot;Znajdź mentora&quot;.</p>
+</td><td><p>Przeniesienie do listy mentor&oacute;w dla wybranej technologii.</p>
+</td></tr><tr><td width="5">2</td><td><p>Wybierz jednego z mentor&oacute;w i kliknij przycisk &quot;Rezerwuj&quot;.</p>
+</td><td><p>Przeniesienie do formularza rezerwacji konsultacji z mentorem.</p>
+</td></tr><tr><td width="5">3</td><td><p>Zaznacz termin i godzinę spotkania, opisz problem w polu wiadomości, następnie kliknij przycisk &quot;Zamawiam i płacę&quot;.</p>
+</td><td><p>Przeniesienie do zakładki PayU pozwalającej zrealizować płatność.</p>
+</td></tr><tr><td width="5">4</td><td><p>Wybierz jeden z trzech dostępnych bank&oacute;w i dokonaj płatności.</p>
+</td><td><p>Spotkanie zostało opłacone, o czym informuje stosowny komunikat oraz informacje w zakładce &quot;Moje rezerwacje&quot;.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203071"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-124: W-UX.1 - standard systemu HTML5&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System powinien spełniać wymagane standardy W3C w kontekście struktury dokumentu HTML5 (wymaganie <strong>W-UX.1</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia Markup Validation&nbsp;Service --&gt; https://validator.w3.org/#validate_by_uri+with_options</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>w narzędziu&nbsp;Markup Validation Service wybrać:<br />
+-&nbsp;odpowiednie ustawienia testowania:&nbsp;&quot;Validate by URL&quot;,<br />
+-&nbsp;określić&nbsp;typ dokumentu: &quot;HTML5 (experimental)&quot;,<br />
+- w polu&nbsp;<em>Address</em> podać adres url strony&nbsp;Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Check&quot;</p>
+</td><td><p>Wyświetlenie raportu zawierającego ocenę zgodności systemu ze strukturą&nbsp;dokumentu HTML5.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">automatyczne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203073"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-125: W-UX.2 - standard systemu CSS&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System powinien spełniać wymagane standardy W3C w kontekście wyglądu i struktury layoutu CSS 3.0 lub nowszej (wymaganie <strong>W-UX.2</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia CSS&nbsp;Validation Service --&gt; http://jigsaw.w3.org/css-validator/#validate_by_uri+with_options</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>w narzędziu CSS Validation Service wybrać:<br />
+- odpowiednie ustawienia testowania: &quot;Validate by URL&quot;,<br />
+- określić profil: &quot;CSS Level 3 + SVG&quot;,<br />
+- w polu <em>Address</em> podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Check&quot;</p>
+</td><td><p>Wyświetlenie raportu zawierającego ocenę zgodności systemu ze strukturą dokumentu CSS 3.0 lub nowszej.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">automatyczne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203075"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-126: W-UX.3 - standard przeglądarek&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System umożliwia dostęp do wszystkich funkcjonalności portalu poprzez przeglądarkę internetową (wymagane <strong>W-UX.3</strong>):<br />
+&bull; GUI Systemu musi być poprawnie interpretowany i wyświetlany przez przeglądarki IE, Chrome, Firefox, Safari, Opera oraz ich odpowiednik w wersjach mobilnych wspieranych przez producent&oacute;w na moment odbioru Systemu.<br />
+&bull; Graficzny interfejs użytkownika (GUI) Systemu jest dostępny za pośrednictwem przeglądarki internetowej.<br />
+&bull; Interfejs sytemu jest skalowalny do r&oacute;żnych rozdzielczości ekranu (responsywny)</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia WebPageTest --&gt; https://www.webpagetest.org/</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>w narzędziu WebPageTest&nbsp;wybrać:<br />
+- odpowiednie ustawienia testowania: &quot;desktop&quot;,<br />
+- określić rodzaj przeglądarki (można skorzystać z opcji &quot;Simple Configuration&quot; lub dodać własne urządzenia w zakładce &quot;Advanced Configuration&quot;)<br />
+- w polu <em>Enter a website URL</em>, podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Start Test&quot;</p>
+</td><td><p>Wyświetlenie raportu zawierającego ocenę funkcjonalności portalu dla r&oacute;żnych przeglądarek.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">automatyczne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203077"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-127: W-UX.4 - standard urządzeń mobilnych&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System jest przystosowany do wyświetlania treści na r&oacute;żnorodnych urządzeniach mobilnych. Urządzeniami tymi mogą być telefony kom&oacute;rkowe, smartfony czy tablety. System będzie wyświetlany na urządzeniach mobilnych z wykorzystaniem RWD (Responsive Web Design). Nie jest wymagane przystosowanie panelu administracyjnego do urządzeń mobilnych (wymaganie <strong>W-UX.4</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia WebPageTest --&gt; https://www.webpagetest.org/</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>&nbsp;w narzędziu WebPageTest wybrać:<br />
+- odpowiednie ustawienia testowania: &quot;mobile&quot;,<br />
+- określić rodzaj przeglądarki (można skorzystać z opcji &quot;Simple Configuration&quot; lub dodać własne urządzenia w zakładce &quot;Advanced Configuration&quot;)<br />
+- w polu <em>Enter a website URL</em>, podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Start Test&quot;</p>
+</td><td><p>Wyświetlenie raportu zawierającego ocenę funkcjonalności portalu na r&oacute;żnych urządzeniach mobilnych.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">automatyczne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203079"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-128: W-BD.1 - baza danych SQL&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Zamawiający wymaga zastosowania jednego z silnik&oacute;w baz danych z językiem SQL na licencji Open Source (wymaganie <strong>W-BD.1</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do bazy danych SQL (MySQL Workbench)</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Za pomocą storny Coders Guru dokonaj&nbsp;rezerwacji konsultacji z mentorem od wybranej technologii.</p>
+</td><td><p>Brak widocznego spotkania w zakładce &quot;Moje rezerwacja&quot;.</p>
+</td></tr><tr><td width="5">2</td><td><p>Przy użyciu danych logowania do bazy wykorzystując MySQL Workbench:<br />
+<em>Host DB: tester.codersguru.pl<br />
+Port: 7306<br />
+User: tester<br />
+Password: CodersGuru2017!</em><br />
+zmień statusy płatności (paid = 1).</p>
+</td><td><p>Dodane konsultacje mają status &quot;opłacone&quot; i oczekują na realizację.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203081"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-129: W-WYD.1 - obciążenie systemu&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Dla systemu z 500 jednocześnie zalogowanymi i obciążającymi system wg scenariusza użytkownikami dowolna strona systemu musi (wymaganie <strong>W-WYD.1</strong>):<br />
+&bull; generować mniej niż 60 żądań http na sekundę,<br />
+&bull; wczytywać się poniżej 2 sekund,<br />
+&bull; w teście PageSpeed osiągać wynik nie mniejszy niż 82%,<br />
+&bull; w teście YSlow osiągać wynik nie mniejszy niż 86%,<br />
+Narzędzie kt&oacute;rym zostaną dokonane pomiary przy odbiorze szablonu https://gtmetrix.com.</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do narzędzia GTmetrix --&gt; https://gtmetrix.com/</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>w narzędziu GTmetrix&nbsp;wybrać:<br />
+- wybrać ustawienia testowania<br />
+- w polu <em>Enter&nbsp;URL to Analyze</em>, podać adres url strony Coders Guru: &quot;https://tester.codersguru.pl/&quot;<br />
+zatwierdzić naciskając przycisk &quot;Test your site&quot;</p>
+</td><td><p>Wyświetlenie raportu zawierającego ocenę parametr&oacute;w obciążeniowych portalu.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">automatyczne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203083"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-130: W-BEZ.1 - wymagania RODO&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>System musi spełniać wszystkie wymagania wynikające z dyrektywy RODO (Rozporządzenia o Ochronie Danych Osobowych) ang. GDPR (General Data Protection Regulation) (wymaganie <strong>W-BEZ.1</strong>).</p>
+
+<p>W tym przypadku, może być konieczny audyt zwenętrzny lub testy przeprowadzone przez certyfikowaną organizację zewnętrzną (ten test ma na celu sprawdzenie dostępności regulaminu i jego zgodności z og&oacute;lnymi wymaganiami).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- dostęp do strony GDPR (lub podobnej) --&gt; https://gdpr.pl/baza-wiedzy/akty-prawne/interaktywny-tekst-gdpr</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Kliknij &quot;Regulamin&quot; znajdujący się w dolnym panelu strony gł&oacute;wnej.</p>
+</td><td><p>Wyświetlenie regulaminu świadczenia usługi.</p>
+</td></tr><tr><td width="5">2</td><td><p>Por&oacute;wanie zapis&oacute;w regulaminu usługi z dyrektywą GDPR.</p>
+</td><td><p>Sprawdzenie zgodności zapis&oacute;w regulaminu.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203085"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-131: W-BEZ.2 - zmiana hasła&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Możliwość samodzielnej zmiany hasła (wymaganie <strong>W-BEZ.2</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Kliknij w &quot;zieloną zębatkę&quot; w prawym g&oacute;rnym rogu strony, obok imienia użytkownika.</p>
+</td><td><p>Przeniesienie użytkownika do ustawień profilu konta użytkownika.</p>
+</td></tr><tr><td width="5">2</td><td><p>Kliknij przycisk &quot;Zmień hasło&quot;.</p>
+</td><td><p>Pojawienie się formularza do zmiany hasła.</p>
+</td></tr><tr><td width="5">3</td><td><p>Uzupełnij pola formularza:<br />
+-&nbsp;podaj <em>Obecne hasło</em><br />
+- podaj <em>Nowe hasło</em><br />
+- <em>Powt&oacute;rz nowe hasło</em><br />
+zatwierdź klikając przycisk &quot;Zmień&quot;</p>
+</td><td><p>Nad formularzem pojawi się komunikat: &quot;Hasło zostało zmienione&quot;.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+<a name="toc_tc203087"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Przypadek testowy ONLW23-132: W-BEZ.3 - walidacja hasła&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="3">adrian.bialobrodzki@gmail.com</td></tr>
+<tr><td colspan="4"><span class="label">Cel testu:</span><br /><p>Walidację haseł niedopuszczalnych: pustych, takich samych jak nazwa użytkownika, kt&oacute;rych częścią jest imię i nazwisko użytkownika lub nazwa podmiotu gospodarczego (wymaganie <strong>W-BEZ.3</strong>).</p>
+</td></tr><tr><td colspan="4"><span class="label">Warunki początkowe:</span><br /><p>- dostęp do strony Coders Guru</p>
+
+<p>- użytkownik jest zalogowany</p>
+</td></tr><tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td></tr><tr><td width="5">1</td><td><p>Kliknij w &quot;zieloną zębatkę&quot; w prawym g&oacute;rnym rogu strony, obok imienia użytkownika.</p>
+</td><td><p>Przeniesienie użytkownika do ustawień profilu konta użytkownika.</p>
+</td></tr><tr><td width="5">2</td><td><p>Kliknij przycisk &quot;Zmień hasło&quot;.</p>
+</td><td><p>Pojawienie się formularza do zmiany hasła.</p>
+</td></tr><tr><td width="5">3</td><td><p>Uzupełnij pola formularza - dla konta &quot;xxxxx@gmail.com&quot;<br />
+- podaj <em>Obecne hasło</em>:<em>&nbsp;</em>&quot;xxxxx&quot;<br />
+- podaj <em>Nowe hasło</em>:<em>&nbsp;</em>&quot;xxx&quot; lub &quot;xxxxx&quot; lub&nbsp; &quot;xxxxx@gmail.com&quot;<br />
+- <em>Powt&oacute;rz nowe hasło</em>:&nbsp;&quot;xxx&quot; lub &quot;xxxxx&quot; lub&nbsp; &quot;xxxxx@gmail.com&quot;<br />
+zatwierdź klikając przycisk &quot;Zmień&quot;</p>
+</td><td><p>Nad formularzem pojawi się komunikat o niemożliwości zmiany hasła np.: &quot;Hasło musi mieć powyżej 5 znak&oacute;w&quot;.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="3">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="3"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Waga:</span></td><td colspan="3">Wysoka</td></tr>
+<tr><td colspan="4"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="3">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="3">&nbsp;Brak<br/></td></tr>
+</table>
+</div>
+
+</body>
+</html>
