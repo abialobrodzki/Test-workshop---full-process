@@ -390,6 +390,15 @@ hr.fullcontent
     	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
             
 
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
+                    Raport+JIRA+Retesty+(Jira+-+Kurs+Testera)+2022-02-05T22_04_44+0100.doc &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
         
     
 
@@ -401,6 +410,25 @@ hr.fullcontent
             </tr>
             </table>
 
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>W załączeniu raport z wykonanych retestów w oparciu o zgłoszone wcześniej błędy i wymagania funkcjonalne.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
 
 <hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
 <table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -2225,7 +2253,7 @@ Testy obejmują wymagania niefunkcjonalne (10):<br/>
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Feb 05 22:37:47 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Feb 05 22:53:07 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>

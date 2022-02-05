@@ -10,7 +10,7 @@ Contents of workshop:
 
 1. Agile method
 - test plan and test management in JIRA, progress report included in:
----> Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T23_37_47+0100.doc[1]
+---> Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T23_53_07+0100.doc[1]
 
 2. Test plan
 - an overview of the requirements for the Coders Guru platform is included in:
