@@ -9,7 +9,7 @@
 Contents of workshop:
 
 1. Agile method
-- test plan and test management in JIRA, progress report included in: "Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-03T00_25_17+0100.doc"[1]
+- test plan and test management in JIRA, progress report included in: "Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T22_08_53+0100.doc"[1]
 
 2. Test plan
 - an overview of the requirements for the Coders Guru platform is included in: Coders_Guru\"CG_ProjektTechniczny_1_0.pdf"[2]
@@ -26,10 +26,11 @@ Contents of workshop:
     - test report in file: Coders_Guru\"Raport z testów - TestLink 1.9.18 (Gaura).pdf"[11]
 
 4. Errors - MyStore
-- exploratory testing bugs reported in the JIRA - TestFLO (BTS - Bug Tracking Systems) tool are included in: MyStore\"Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-02-01T16_45_02+0100.doc"[12]
+- exploratory testing bugs reported in the [BTS - Bug Tracking Systems] JIRA (added TestFLO tool) are included in: MyStore\"Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-02-01T16_45_02+0100.doc"[12]
 
-5. Retesting
-- ... to be continued
+5. Retesting - MyStore
+- retesting bugs reported in the JIRA (added TestFLO tool) are included in: MyStore\"Raport+JIRA+Retesty+(Jira+-+Kurs+Testera)+2022-02-05T22_04_44+0100.doc"[13]
+- regression testing bugs reported in the JIRA (added TestFLO tool) are included in: MyStore\"ONLW23-932.doc"[14] 
 
 6. Reports
 - ... to be continued

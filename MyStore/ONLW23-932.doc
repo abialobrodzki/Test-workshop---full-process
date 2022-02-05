@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#ONLW23-932] BIA Test Plan &quot;Regresja My Store&quot;</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-kurs.coderslab.pl/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-932]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-932">BIA Test Plan &quot;Regresja My Store&quot;</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Zamknięte</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Plan
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142761-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Nie określono
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Czas poświęcony:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Nie określono
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Pierwotne oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Nie określono
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+<tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Podzadania:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Klucz</b><br/>
+                </td>
+                <td>
+                    <b>Podsumowanie</b><br/>
+                </td>
+                <td>
+                    <b>Typ</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Osoba przypisana</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-862">ONLW23-862</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-862">BOB restart hasła</a>
+                    </td>
+                    <td>
+                        Test Case
+                    </td>
+                    <td>
+                        Pass
+                    </td>
+                    <td>
+                                                     Adrian Białobrodzki  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-863">ONLW23-863</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-863">BOB zakup produktu</a>
+                    </td>
+                    <td>
+                        Test Case
+                    </td>
+                    <td>
+                        Pass
+                    </td>
+                    <td>
+                                                     Adrian Białobrodzki  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-864">ONLW23-864</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-864">BOB edycja danych</a>
+                    </td>
+                    <td>
+                        Test Case
+                    </td>
+                    <td>
+                        Pass
+                    </td>
+                    <td>
+                                                     Adrian Białobrodzki  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142761-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>TP Progress:</b></td>
+                <td id="customfield_10211-142761-value" class="value" bgcolor="#ffffff" width="80%">        <table style="width:200px;" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td style="padding:0px;">
+                <div style="margin:0px;background-color:transparent;float:none;width:200px;height:17px;padding:0px;display:inline;">
+                    <table cellspacing="0" cellpadding="0" style="border:none;height:17px;max-height:17px;width:200px;">
+                        <tr>
+                                                                                        <td style="padding:0px;height:17px;width:100%;background-color:#51A825;border-bottom-left-radius:5px;border-top-left-radius:5px;-webkit-border-bottom-left-radius:5px;-webkit-border-top-left-radius:5px;border-bottom-right-radius:5px;border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-top-rigth-radius:5px;"
+                                    title="Pass-100%"></td>
+                                                                                    </tr>
+                                                                    </table>
+                </div>
+            </td>
+            <td style="white-space:nowrap;padding-left:5px;vertical-align:left;">
+                                    100%
+                            </td>
+        </tr>
+    </table>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>TP Status:</b></td>
+                <td id="customfield_10204-142761-value" class="value" bgcolor="#ffffff" width="80%"><div style="-moz-border-radius:.4em;-webkit-border-radius:.4em;color:white;text-align:center;font-size:12px;font-weight:700;display:inline-block;padding-top:1px;padding-bottom:1px;border-radius:.4em;width:100px;background-color:#51A825">Zamknięte</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Number of Steps:</b></td>
+                <td id="customfield_10206-142761-value" class="value" bgcolor="#ffffff" width="80%">	13
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Number of Test Cases:</b></td>
+                <td id="customfield_10205-142761-value" class="value" bgcolor="#ffffff" width="80%">	3
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Testy regresji dla aplikacji My Store.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Wygenerowane (Sat Feb 05 20:33:48 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+
+</body>
+</html>
