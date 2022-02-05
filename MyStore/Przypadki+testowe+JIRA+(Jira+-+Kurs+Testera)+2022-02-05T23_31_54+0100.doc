@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Przypadki testowe JIRA (Jira - Kurs Testera)</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-kurs.coderslab.pl/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-693]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-693">BIA Edycja danych użytkownika</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142522-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142522-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 1</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>uzupełnij wybrane pola z danymi, wpisując poprawne nowe wartości, w celu zatwierdzenia zmian wciśnij przycisk "Save"</p></td>
+                                            <td><p>użytkownik znajduje się na stronie z widokiem edycji danych :<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php?controller=identity" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php?controller=identity</a></p>
+
+
+
+<p>widoczny formularz z danymi użytkownika</p></td>
+                                            <td><p>dane zostają zmienione, pojawia się komunikat "Information successfully updated"</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142522-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314246"
+                     data-preconditions-value="[&quot;aktywna zakładka z informacjami o użytkowniku&quot;,&quot;użytkownik zalogowany&quot;]"
+                     data-issue-id="142522"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest sprawdzenie możliwości edycji danych przez użytkownika.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-691]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-691">BIA Dodawanie/usuwanie produktów z koszyka</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142520-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142520-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142520-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 3</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>zwiększ ilość wybranego produktu poprzez panel ilości produktu (strzałka w górę)</p></td>
+                                            <td><p>użytkownik znajduje się w koszyku produktów:<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php?controller=cart&amp;action=show" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php?controller=cart&amp;action=show</a></p>
+
+
+
+<p>widoczne pole ilości produktu</p></td>
+                                            <td><p>suma ilości "items" oraz suma wartości zamówienia "Total (tax incl.)" zwiększa się o zadaną wartość</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>zmniejsz ilość wybranego produktu  poprzez panel ilości produktu (strzałka w dół)</p></td>
+                                            <td><p>widoczne pole ilości produktu</p></td>
+                                            <td><p>suma ilości "items" oraz suma wartości zamówienia "Total (tax incl.)" zmniejsza się o zadaną wartość</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            3
+                                    </td>
+                                                            <td><p>usuń produkt z koszyka, klikając w miniaturkę/ikonę kosza przy danym produkcie</p></td>
+                                            <td><p>widoczna miniaturka/ikona kosza</p></td>
+                                            <td><p>produkt znika z koszyka<br/>
+suma ilości "items" oraz suma wartości zamówienia "Total (tax incl.)" zmniejsza się o wartość usuniętego produktu</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142520-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314255"
+                     data-preconditions-value="[&quot;aktywna zakładka z koszykiem produktów&quot;,&quot;w koszyku znajdują się produkty&quot;]"
+                     data-issue-id="142520"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest sprawdzenie możliwości dodawania i usuwania produktów z koszyka wraz ze sprawdzeniem poprawności przeliczania jego zawartości.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-675]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-675">BIA Wyszukiwanie/sortowanie produktów</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142504-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142504-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142504-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 2</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>wybierz z listy rozwijanej "Sort by" sposób sortowania produktów</p></td>
+                                            <td><p>użytkownik znajduje się na stronie z widokiem wszystkich produktów :<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php?id_category=2&amp;controller=category" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php?id_category=2&amp;controller=category</a></p>
+
+<p>widoczny przycisk sortowania, znajdujący się nad polem z listą produktów</p></td>
+                                            <td><p>produkty zostają posortowane według wskazanego schematu</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>z lewej strony wybierz sposób filtrowania produktów</p></td>
+                                            <td><p>widoczny panel z filtrami, znajdujący się po lewej stronie pola z listą produktów</p></td>
+                                            <td><p>produkty zostają przefiltrowane według wskazanego schematu</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142504-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314263"
+                     data-preconditions-value="[&quot;aktywna zakładka z listą wszystkich produktów \&quot;All products\&quot;&quot;]"
+                     data-issue-id="142504"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest sprawdzenie możliwości sortowania i wyszukiwania produktów.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-671]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-671">BIA Przypominanie hasła</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142500-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142500-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142500-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 2</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>kliknij odnośnik "Forgot your password?" znajdujący pod polem z hasłem</p></td>
+                                            <td><p>użytkownik znajduje się w zakładce logowania:<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php?controller=authentication&amp;back=my-account" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php?controller=authentication&amp;back=my-account</a></p></td>
+                                            <td><p>następuje przekierowanie do strony z formularzem do wpisania adresu e-mail, na który ma zostać wysłany link do resetowania hasła </p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>podaj adres e-mail użytkownika w polu formularza "Email address" i zatwierdź klikając przycisk "Send reset link"</p></td>
+                                            <td><p>widoczny formularz do odzyskiwania hasła</p></td>
+                                            <td><p>potwierdzenie wysłania linka do zresetowania hasła na podany e-mail</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142500-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314270"
+                     data-preconditions-value="[&quot;aktywna zakładka logowania&quot;,&quot;użytkownik zarejestrowany, ale wylogowany&quot;]"
+                     data-issue-id="142500"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest możliwość zresetowania/odzyskiwania hasła przez zarejestrowanego użytkownika.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-669]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-669">BIA Proces zakupu</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142498-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142498-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142498-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 9</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>wybierz walutę z listy rozwijanej "Currency:" znajdującej się w górnym panelu nawigacyjnym</p></td>
+                                            <td><p>aktywna strona główna:<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php</a></p></td>
+                                            <td><p>waluta zostaje zmieniona na wybraną</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>kliknij przycisk "All products" na stronie głównej, znajdujący się pod polem z kafelkami zawierającymi najbardziej popularne produkty "Popular products"</p></td>
+                                            <td><p>widoczny odnośnik "All products &gt;"</p></td>
+                                            <td><p>następuje przekierowanie do strony ze wszystkimi produktami</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            3
+                                    </td>
+                                                            <td><p>wybierz jeden z produktów wybierając "Quick view"</p></td>
+                                            <td><p>widoczne kafelki produktów<br/>
+wysuwający się przycisk "Quick view"</p></td>
+                                            <td><p>wyświetlenie panelu podglądu zawierającego opis produktu</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            4
+                                    </td>
+                                                            <td><p>wybierz parametry produktu (jeżeli dostepne) i dodaj produkt do koszyka wciskając przycisk "Add to cart"</p></td>
+                                            <td><p>widoczny panel z opisem produktu</p></td>
+                                            <td><p>wyświetlenie karty podglądu zamówień</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            5
+                                    </td>
+                                                            <td><p>sfinalizuj zamówienie klikając w przycisk "Proceed to checkout" </p></td>
+                                            <td><p>widoczna karta podglądu zamówień</p></td>
+                                            <td><p>przeniesienie do koszyka produktów "Shopping cart"</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            6
+                                    </td>
+                                                            <td><p>kliknij "Procedd to checkout" aby sfinalizować zamówienie</p></td>
+                                            <td><p>widoczny koszyk produktów</p></td>
+                                            <td><p>przeniesienie do formularza finalizacji zamówienia</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            7
+                                    </td>
+                                                            <td><p>w polu "Addresses" wybierz adres dostawy i dane do faktury</p></td>
+                                            <td><p>widoczny formularz finalizacji zamówienia z polem "Addresses"</p></td>
+                                            <td><p>pole "Addresses"się zwija, wyświetla się pole z wyborem dostawy "Shipping method"</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            8
+                                    </td>
+                                                            <td><p>wybierz metodę dostawy i kliknij przycisk "Continue"</p></td>
+                                            <td><p>widoczny formularz finalizacji zamówienia z polem "Shipping method"</p></td>
+                                            <td><p>pole "Shipping method"" się zwija, wyświetla się pole z wyborem płatności "Payment"</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            9
+                                    </td>
+                                                            <td><p>wybierz metodę dostawy, zaakceptuj warunki świadczenia usługi i kliknij przycisk "Order with an obligation to pay"</p></td>
+                                            <td><p>widoczny formularz finalizacji zamówienia z polem "Payment"</p></td>
+                                            <td><p>wyświetlenie komunikau potwierdzającego zamówienie "YOUR ORDER IS CONFIRMED" wraz ze szczegółami zamówienia</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142498-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314287"
+                     data-preconditions-value="[&quot;aktywna strona główna&quot;,&quot;użytkownik zalogowany&quot;]"
+                     data-issue-id="142498"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest sprawdzenie procesu dokonywania zakupów przez zalogowanego użytkownika.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-657]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-657">BIA Działanie przycisku &quot;my store&quot;</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142486-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142486-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142486-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 1</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>kliknij przycisk "my store" znajdujący się w lewej części strony w górnym panelu nawigacyjnym</p></td>
+                                            <td><p>użytkownik znajduje się w dowolnej zakładce np:<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php?id_category=6&amp;controller=category" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php?id_category=6&amp;controller=category</a></p></td>
+                                            <td><p>następuje przekierowanie do strony głównej</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142486-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314293"
+                     data-preconditions-value="[&quot;aktywna dowolna zakładka (poza stroną główną)&quot;]"
+                     data-issue-id="142486"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest możliwość sprawdzenie czy przycisk "my store" cofa do strony głównej ("Home").</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-643]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-643">BIA Rejestracja użytkownika</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142472-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142472-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-142472-value" class="value" bgcolor="#ffffff" width="80%">    
+                    
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 1</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>uzupełnij formularz rejestracyjny poprawnymi danymi i kliknij przycisk "Save"</p></td>
+                                            <td><p>użytkownik znajduje się na stronie:<br/>
+<a href="https://mystore-testlab.coderslab.pl/index.php?controller=authentication&amp;create_account=1" class="external-link" target="_blank" rel="nofollow noopener">https://mystore-testlab.coderslab.pl/index.php?controller=authentication&amp;create_account=1</a></p></td>
+                                            <td><p>brak komunikatów błędów, użytkownik zostaje zarejestrowany i zalogowany do systemu</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-142472-value" class="value" bgcolor="#ffffff" width="80%">    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1644100314299"
+                     data-preconditions-value="[&quot;aktywny formularz rejestracyjny&quot;]"
+                     data-issue-id="142472"
+                     data-project-id="12401"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Celem jest możliwość zarejestrowania się użytkownika.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Feb 05 22:31:54 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+
+</body>
+</html>

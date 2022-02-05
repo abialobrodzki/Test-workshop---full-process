@@ -212,6 +212,8 @@ hr.fullcontent
             <td bgcolor="#ffffff" valign="top">
                                     <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
                     ONLW23-932.doc &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
+                    Przypadki+testowe+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T23_31_54+0100.doc &nbsp;&nbsp;&nbsp;
                             </td>
         </tr>
         
@@ -239,7 +241,9 @@ hr.fullcontent
     <table cellpadding="0" cellspacing="0" border="0" width="100%">
     <tr>
         <td id="descriptionArea">
-            <p>W załączeniu raport z wykonania testów regresji dla ścieżki krytycznej.</p>
+            <p>W załączeniu lista przypadków testowych dla testów regresji (wykonane przez inną osobę z zespołu).</p>
+
+<p>W załączeniu raport z wykonania testów regresji dla ścieżki krytycznej (zlecone przez inną osobę z zespołu).</p>
 
 <p>Kluczowe elementy sprawdzone w regresji (przypadki testowe wykonane w TestFLO):<br/>
  1. Możliwość rejestracji użytkownika<br/>
@@ -2221,7 +2225,7 @@ Testy obejmują wymagania niefunkcjonalne (10):<br/>
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Feb 05 21:08:53 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Feb 05 22:37:47 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>
