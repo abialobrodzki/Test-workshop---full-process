@@ -78,6 +78,1440 @@ hr.fullcontent
     <tr>
         <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
                             <h3 class="formtitle">
+                        [ONLW23-938]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-938">Składanie zamówień jako gość nie działa - &quot;Order as a guest&quot; - retest [WYM-55]</a>
+            <span class="subText">
+               Utworzono: 06/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142767-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 154558.jpg &nbsp;&nbsp;&nbsp;
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-01 154812.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-612">
+                     <strike>ONLW23-612</strike>                 </a>
+            </td>
+            <td>
+                Składanie zamówień jako gość nie dzia...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142767-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-55&#93;</span>. Jako użytkownik chcę sfinalizować zamówienie, aby móc zapłacić za wybrane produkty. <span class="error">&#91;M&#93;</span></em><br/>
+ <em>● Aby przejść do widoku finalizacji zamówienia trzeba wybrać “Proceed to checkout” po dodaniu produktu do koszyka lub poprzez wybranie tego samego przycisku w widoku koszyka</em><br/>
+ <em>● Podczas finalizacji zamówienia należy przejść przez następujące kroki</em><br/>
+ <em>○ Podanie informacji osobowych</em><br/>
+      <em>■ W przypadku zalogowanego użytkownika ten krok jest zakończony automatycznie</em><br/>
+      <em>■ Zalogowany użytkownik może przejść do tego kroku i wylogować się, aby złożyć zamówienie jako gość</em><br/>
+      <em>■ Niezalogowany użytkownik musi założyć nowe konto (procedura identyczna jak przy zakładaniu nowego konta)</em><br/>
+ <em>○ Wybranie adresu dostawy</em><br/>
+ <em>○ Wybranie sposobu doręczenia zamówienia</em><br/>
+ <em>○ Wybranie sposobu zapłaty</em></p>
+<ol>
+	<li>użytkownik zalogowany, produkty w koszyku</li>
+	<li>przejdź do widoku koszyka produktów - kliknij "Cart"</li>
+	<li>finalizuj zamówienie poprzez kliknięcie przycisku “Proceed to checkout”</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Zalogowany użytkownik po wylogowaniu traci zapisane produkty w koszyku, nie może złożyć zamówienia jako gość - k</font><font color="#de350b">omunikat "If you sign out now, your cart will be emptied" sprzeczny z wymaganiami.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Zalogowany użytkownik po wylogowaniu może złożyć zamówienie jako gość - zawartość koszyka nie jest kasowana.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-937]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-937">Powiększenie zdjęcia nie działa - retest [WYM-48]</a>
+            <span class="subText">
+               Utworzono: 06/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142766-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-06 010139.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-601">
+                     <strike>ONLW23-601</strike>                 </a>
+            </td>
+            <td>
+                Powiększenie zdjęcia nie działa [WYM-48]
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142766-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-48&#93;</span>. Jako użytkownik chcę powiększyć zdjęcie produktu, aby móc lepiej mu się</em> <em>przyjrzeć.<span class="error">&#91;S&#93;</span></em><br/>
+ <em>● Po wybraniu kategorii produktów należy wybrać jeden produkt i kliknąć na jego</em> <em>zdjęcie</em><br/>
+ <em>● Powinno pojawić się powiększone zdjęcie produktu wraz z opisem zamieszczonym</em> <em>pod zdjęciem</em><br/>
+ <em>● Aby wyłączyć powiększenie należy kliknąć na dowolne miejsce w przeglądarce poza</em> <em>zdjęciem</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>wybierz jeden z produktów i kliknij na jego zdjęcie</li>
+	<li>po otwarciu karty produktu kliknij na jego zdjęcie</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Po kliknięciu na zdjęcie produktu w kafelku nie otwiera się jego zdjęcie, zostajemy przeniesieni do karty z opisem produktu.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Po kliknięciu na zdjęcie produktu w kafelku otwiera się jego zdjęcie wraz z opisem.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-936]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-936">Filtrowanie produktów nie działa poprawnie - retest [WYM-46]</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142765-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, products                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-598">
+                     <strike>ONLW23-598</strike>                 </a>
+            </td>
+            <td>
+                Filtrowanie produktów nie działa popr...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142765-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-46&#93;</span>. Jako użytkownik chcę mieć możliwość filtrowania produktów, aby szybciej znaleźć to czego szukam.<span class="error">&#91;S&#93;</span></em><br/>
+ <em>● Filtrowanie dostępne jest po wybraniu kategorii lub podkategorii produktu z górnego menu</em><br/>
+ <em>● Filtrować można po:</em><br/>
+ <em>○ Cenie</em><br/>
+ <em>○ Kolorze (jeżeli występują produkty o różnych zdefiniowanych kolorach) (Kategoria Clothes i Accessories)</em><br/>
+ <em>○ Rozmiarze (jeśli produkty mają zdefiniowane rozmiary)(Kategoria Clothes i Art)</em><br/>
+ <em>○ Podkategorii (jeżeli wybraliśmy kategorię główną, która posiada podkategorie)</em><br/>
+ <em>○ Marce (Kategoria Accessories)</em><br/>
+ <em>○ Typie papieru (jeśli produkty mają zdefiniowany)(Kategoria Accessories)</em><br/>
+ <em>● Użytkownik ma możliwość wybrania kilku filtrów jednocześnie</em><br/>
+ <em>● Użytkownik ma możliwość wyczyszczenia filtrów poprzez wybranie “x clear all” (wszystkie wybrane filtry powinny się wyłączyć)</em></p>
+<ol>
+	<li>użytkownik zalogowany, widok wszystkich produktów "All products"</li>
+	<li>zastosuj wybrane filtry znajdujące się w polu po lewej stronie kafelków z produktami</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Podczas wyboru kilku filtrów, z panelu wyboru znikają inne filtry, utrudniając ich zmianę lub wyłączenie.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Z panelu wyboru filtrów nie znikają dodawane filtry.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-935]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-935">Nieprawidłowa struktura i linki w mapie strony - &quot;Sitemap&quot; - retest [WYM-43]</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142764-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, down_navigation_bar                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-02-06 005051.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-595">
+                     ONLW23-595                 </a>
+            </td>
+            <td>
+                Kategorie &quot;Brands&quot; i &quot;Suppliers&quot; nie ...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-594">
+                     <strike>ONLW23-594</strike>                 </a>
+            </td>
+            <td>
+                Nieprawidłowa struktura i linki w map...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-593">
+                     <strike>ONLW23-593</strike>                 </a>
+            </td>
+            <td>
+                Odnośnik do informacji o płatnościach...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142764-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-43&#93;</span>. Jako użytkownik chcę mieć dostęp do mapy strony (poprzez link “Sitemap”), aby zobaczyć pełną strukturę strony.</em><br/>
+ <em>● Podstrona zawiera strukturę strony w postaci czterech głównych kategorii (Our offers, Categories, Your account, Pages) i linków do podkategorii</em><br/>
+ <em>● Linki do podkategorii powinny przenosić użytkownika do odpowiednich działów strony i być koloru niebieskiego</em><br/>
+ <em>● Struktura powinna wyglądać następująco:</em><br/>
+ <em>○ Our offers (5)*: New products; Brands; Graphic Corner; Studio Design; Suppliers</em><br/>
+ <em>○ Categories (8)*: Home; Clothes; Men; Women; Accessories; Stationery; Home Accessories; Art</em><br/>
+ <em>○ Your Account (2)*: Log in; Create new account</em><br/>
+ <em>○ Pages (8)*: Delivery; Legal Notice; Terms and conditions of use; About us; Secure payment; Our stores; Contact us; Sitemap</em></p>
+
+<p><em>* liczba elementów dla struktury</em></p>
+<ol>
+	<li>użytkownik niezalogowany, przewiń do dolnego menu aplikacji</li>
+	<li>wyświetl mapę strony poprzez kliknięcie w link “Sitemap”</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#de350b">Nie zostały wymienione wszystkie podkategorie w strukturze "Categories".</font></p>
+
+<p><font color="#de350b">Link podkategorii "Create new account" prowadzi do strony logowania "Log in to your account".</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Zostały wymienione wszystkie podkategorie w strukturze "Categories".</p>
+
+<p>Link podkategorii "Create new account" prowadzi do strony rejestracji "Create an account".</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-934]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-934">&quot;Prices drop&quot; zwraca nieprawidłowe produkty - retest [WYM-34]</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142763-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, down_navigation_bar                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-30 005646.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-586">
+                     <strike>ONLW23-586</strike>                 </a>
+            </td>
+            <td>
+                &quot;Prices drop&quot; zwraca nieprawidłowe pr...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142763-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-34&#93;</span>. Jako użytkownik chcę wyświetlić tylko przecenione produkty (poprzez link “Prices drop”), aby móc szybko znaleźć najtańsze rzeczy.</em><br/>
+ <em>● Powinien wyświetlić się widok z przecenionymi produktami w formie kafelków</em><br/>
+ <em>● Produkty powinny mieć cenę przed (przekreśloną) i po przecenie</em><br/>
+ <em>● Powinna się wyświetlić ilość produktów na przecenie</em><br/>
+ <em>● W lewej części ekranu powinna być widoczna główna kategoria przedmiotu wraz z podkategoriami</em><br/>
+ <em>● Użytkownik powinien mieć możliwość sortowania produktów po:</em><br/>
+      <em>- Nazwie (rosnąco i malejąco)</em><br/>
+      <em>- Cenie (rosnąco i malejąco)</em></p>
+<ol>
+	<li>użytkownik zalogowany, widoczne górne menu aplikacji</li>
+	<li>wybierz kategorię produktu: "ACCESSORIES"</li>
+	<li>przewiń do dolnego menu aplikacji</li>
+	<li>wyświetl przecenione produkty poprzez kliknięcie w link “Prices drop”</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p> <font color="#de350b">Wyświetlone produkty należą do innej kategorii (produkty z grupy "Cloth" wyświetlone w grupie "Accessories").</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p> Wyświetlone produkty należą do wybranej kategorii (produkty z grupy "Cloth" wyświetlone w grupie "Cloth").</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [ONLW23-933]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-933">Widok &quot;All products&quot; nie wyświetla się poprawnie - retest [WYM-21]</a>
+            <span class="subText">
+               Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-kurs.coderslab.pl/secure/BrowseProject.jspa?id=12401">ONL_TEM_W_23</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd w programie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_reporter_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-142762-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            MyStore, all_products, home                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    	<tr>
+
+		<td bgcolor="#f0f0f0" width="20%" valign="top">
+			<b>Środowisko:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" colspan="3">
+            <p>deweloperskie</p>
+
+<p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36</p>
+		</td>
+	</tr>
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik JPEG">
+                    Zrzut ekranu 2022-01-28 145149.jpg &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-575">
+                     <strike>ONLW23-575</strike>                 </a>
+            </td>
+            <td>
+                Widok &quot;All products&quot; nie wyświetla si...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10104-142762-value" class="value" bgcolor="#ffffff" width="80%">Sprint 1 ONLTEMW23</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Kroki reprodukcji:</b></p>
+
+<p><em><span class="error">&#91;WYM-21&#93;</span>. Jako użytkownik chcę przejść do widoku wszystkich produktów przez kliknięcie “All products” z poziomu strony głównej, aby móc przeglądać wszystkie produkty. <span class="error">&#91;S&#93;</span></em></p>
+<ol>
+	<li>użytkownik zalogowany, z poziomu strony głównej kliknij "All products"</li>
+</ol>
+
+
+<p><b>Rezultat rzeczywisty:</b></p>
+
+<p><font color="#172b4d">Po kliknięciu "All products" wyświetla się widok wszystkich produktów.</font></p>
+
+<p><font color="#de350b">Wyświetlona pozycja użytkownika to "Home/".</font></p>
+
+<p><font color="#de350b">Opis pola nawigacyjnego "Home" zajmuje znaczną część strony.</font></p>
+
+<p><b>Rezultat oczekiwany:</b></p>
+
+<p>Po kliknięciu "All products" wyświetla się widok wszystkich produktów.</p>
+
+<p>Wyświetlona pozycja użytkownika to "Home/All products".</p>
+
+<p>Opis pola nawigacyjnego "Home" dopasowuje się do zawartości - zajmuje mniej miejsca na stronie.</p>
+
+<p> </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
                         [ONLW23-912]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-912">Źle opisane rezultaty &quot;Expected result&quot;</a>
             <span class="subText">
                Utworzono: 05/lut/22                   &nbsp;Zaktualizowano: 05/lut/22
@@ -886,12 +2320,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
                                     <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-337">
@@ -1129,12 +2563,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
                                     <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-276">
@@ -1219,15 +2653,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-612]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-612">Składanie zamówień jako gość nie działa - &quot;Order as a guest&quot; [WYM-55]</a>
             <span class="subText">
-               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1296,7 +2731,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -1366,6 +2801,35 @@ hr.fullcontent
                             </td>
         </tr>
         
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-938">
+                     ONLW23-938                 </a>
+            </td>
+            <td>
+                Składanie zamówień jako gość nie dzia...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
     
 
 
@@ -1434,7 +2898,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-611]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-611">“Proceed to checkout” przenosi do koszyka [WYM-52]</a>
             <span class="subText">
-               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
 
                                             </span>
             </h3>
@@ -1442,7 +2906,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1503,7 +2967,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -1578,12 +3042,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                    <tr>
+                                                                <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-610">
@@ -1593,10 +3057,10 @@ hr.fullcontent
                 “Continue shopping” nie wraca do osta...
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
-                                                                    </table>
+                                        </table>
             </td>
         </tr>
     
@@ -1668,7 +3132,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-610]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-610">“Continue shopping” nie wraca do ostatnio wyświetlonej kategorii [WYM-52]</a>
             <span class="subText">
-               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
 
                                             </span>
             </h3>
@@ -1676,7 +3140,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1737,7 +3201,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -1821,12 +3285,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                                                <tr>
+                                    <tr>
             <td>
-                is blocked by
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-611">
@@ -1836,10 +3300,10 @@ hr.fullcontent
                 “Proceed to checkout” przenosi do kos...
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
-                                        </table>
+                                                                    </table>
             </td>
         </tr>
     
@@ -1911,7 +3375,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-609]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-609">Dostosowanie produktu &quot;HUMMINGBIRD PRINTED SWEATER&quot; nie działa [WYM-51]</a>
             <span class="subText">
-               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
 
                                             </span>
             </h3>
@@ -1919,7 +3383,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -1980,7 +3444,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -2120,15 +3584,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-608]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-608">Nierówne marginesy boczne przy zdjęciach produktów [WYM-21]</a>
             <span class="subText">
-               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 01/lut/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -2197,7 +3662,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -2265,35 +3730,6 @@ hr.fullcontent
                             </td>
         </tr>
         
-            <tr>
-            <td bgcolor="#f0f0f0" width="20%" valign="top">
-                <b>Łącza zgłoszeń:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" class="noPadding">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
-                                            <tr>
-                            <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
-                            </td>
-                        </tr>
-                                    <tr>
-            <td>
-                blocks
-            </td>
-            <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-575">
-                     ONLW23-575                 </a>
-            </td>
-            <td>
-                Widok &quot;All products&quot; nie wyświetla si...
-            </td>
-            <td>
-                W toku
-            </td>
-        </tr>
-                                                                    </table>
-            </td>
-        </tr>
     
 
 
@@ -2345,7 +3781,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-605]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-605">Brak informacji o bezpieczeństwie, wysyłce i zwrotach [WYM-49]</a>
             <span class="subText">
-               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
                                             </span>
             </h3>
@@ -2353,7 +3789,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -2414,7 +3850,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -2560,7 +3996,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-604]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-604">&quot;Quick view&quot; - problem z podglądem kafelka produktu [WYM-50]</a>
             <span class="subText">
-               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
                                             </span>
             </h3>
@@ -2568,7 +4004,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -2629,7 +4065,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -2715,25 +4151,25 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                    <tr>
+                                                                <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-601">
-                     ONLW23-601                 </a>
+                     <strike>ONLW23-601</strike>                 </a>
             </td>
             <td>
                 Powiększenie zdjęcia nie działa [WYM-48]
             </td>
             <td>
-                W toku
+                Gotowe
             </td>
         </tr>
-                                                                    </table>
+                                        </table>
             </td>
         </tr>
     
@@ -2784,7 +4220,7 @@ hr.fullcontent
 
 <p><font color="#de350b">"Quick view" wyświetla się cały czas, niezależnie od miejsca w jakim znajduję się kursor w obszarze kafelka produktu.</font></p>
 
-<p><font color="#de350b">Kliknięcie w zdjęcie produktu powoduje przeniesienie do widoku produktu (dokładny opis).</font></p>
+<p><font color="#de350b">Kliknięcie w zdjęcie produktu powoduje przeniesienie do widoku produktu (karty z dokładnym opisem).</font></p>
 
 <p><font color="#de350b">Wyświetla się dodatkowy pasek z wyborem kolorów - nie ma tego w wymaganiach.</font></p>
 
@@ -2811,15 +4247,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-601]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-601">Powiększenie zdjęcia nie działa [WYM-48]</a>
             <span class="subText">
-               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 31/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -2888,7 +4325,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -2964,12 +4401,27 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                                                <tr>
+                                    <tr>
             <td>
-                is blocked by
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-937">
+                     ONLW23-937                 </a>
+            </td>
+            <td>
+                Powiększenie zdjęcia nie działa - ret...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-604">
@@ -2979,10 +4431,10 @@ hr.fullcontent
                 &quot;Quick view&quot; - problem z podglądem ka...
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
-                                        </table>
+                                                                    </table>
             </td>
         </tr>
     
@@ -3045,15 +4497,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-600]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-600">Sortowanie produktów nie działa [WYM-47]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -3122,7 +4575,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -3247,7 +4700,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-599]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-599">Brak opisu filtrowania pod względem dostępności - &quot;Availability&quot; [WYM-46]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -3255,7 +4708,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -3316,7 +4769,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -3391,25 +4844,25 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                    <tr>
+                                                                <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-598">
-                     ONLW23-598                 </a>
+                     <strike>ONLW23-598</strike>                 </a>
             </td>
             <td>
                 Filtrowanie produktów nie działa popr...
             </td>
             <td>
-                W toku
+                Gotowe
             </td>
         </tr>
-                                                                    </table>
+                                        </table>
             </td>
         </tr>
     
@@ -3471,15 +4924,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-598]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-598">Filtrowanie produktów nie działa poprawnie [WYM-46]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -3548,7 +5002,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -3626,12 +5080,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                                                <tr>
+                                    <tr>
             <td>
-                is blocked by
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-599">
@@ -3641,7 +5095,22 @@ hr.fullcontent
                 Brak opisu filtrowania pod względem d...
             </td>
             <td>
-                W toku
+                Do zrobienia
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-936">
+                     ONLW23-936                 </a>
+            </td>
+            <td>
+                Filtrowanie produktów nie działa popr...
+            </td>
+            <td>
+                Do zrobienia
             </td>
         </tr>
                                         </table>
@@ -3721,15 +5190,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-597]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-597">Odnośnik do zamówień nie działa - &quot;Orders&quot; [WYM-45]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -3798,7 +5268,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -3911,7 +5381,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-596]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-596">Błąd w opisie wymagań [WYM-44]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -3919,7 +5389,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -3980,7 +5450,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -4099,7 +5569,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-595]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-595">Kategorie &quot;Brands&quot; i &quot;Suppliers&quot; nie zostały opisane wymaganiach [WYM-43]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -4107,7 +5577,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -4168,7 +5638,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -4243,25 +5713,40 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                    <tr>
+                                                                <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-594">
-                     ONLW23-594                 </a>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-935">
+                     ONLW23-935                 </a>
             </td>
             <td>
                 Nieprawidłowa struktura i linki w map...
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
-                                                                    </table>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-594">
+                     <strike>ONLW23-594</strike>                 </a>
+            </td>
+            <td>
+                Nieprawidłowa struktura i linki w map...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
             </td>
         </tr>
     
@@ -4320,15 +5805,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-594]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-594">Nieprawidłowa struktura i linki w mapie strony - &quot;Sitemap&quot; [WYM-43]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -4397,7 +5883,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -4475,27 +5961,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                                                <tr>
+                                    <tr>
             <td>
-                is blocked by
-            </td>
-            <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-593">
-                     ONLW23-593                 </a>
-            </td>
-            <td>
-                Odnośnik do informacji o płatnościach...
-            </td>
-            <td>
-                W toku
-            </td>
-        </tr>
-            <tr>
-            <td>
-                is blocked by
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-595">
@@ -4505,7 +5976,37 @@ hr.fullcontent
                 Kategorie &quot;Brands&quot; i &quot;Suppliers&quot; nie ...
             </td>
             <td>
-                W toku
+                Do zrobienia
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-935">
+                     ONLW23-935                 </a>
+            </td>
+            <td>
+                Nieprawidłowa struktura i linki w map...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-593">
+                     <strike>ONLW23-593</strike>                 </a>
+            </td>
+            <td>
+                Odnośnik do informacji o płatnościach...
+            </td>
+            <td>
+                Gotowe
             </td>
         </tr>
                                         </table>
@@ -4584,15 +6085,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-593]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-593">Odnośnik do informacji o płatnościach nie działa - &quot;Secure payment&quot; [WYM-42]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -4661,7 +6163,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -4728,22 +6230,37 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
                                     <tr>
             <td>
-                blocks
+                relates to
             </td>
             <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-594">
-                     ONLW23-594                 </a>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-935">
+                     ONLW23-935                 </a>
             </td>
             <td>
                 Nieprawidłowa struktura i linki w map...
             </td>
             <td>
-                W toku
+                Do zrobienia
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-594">
+                     <strike>ONLW23-594</strike>                 </a>
+            </td>
+            <td>
+                Nieprawidłowa struktura i linki w map...
+            </td>
+            <td>
+                Gotowe
             </td>
         </tr>
                                                                     </table>
@@ -4808,7 +6325,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-592]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-592">Zduplikowane wymaganie nr 40 [WYM-41]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -4816,7 +6333,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -4877,7 +6394,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -4996,7 +6513,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-591]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-591">Brak informacji o sklepie - &quot;About us&quot; [WYM-40]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -5004,7 +6521,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -5065,7 +6582,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -5196,7 +6713,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-590]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-590">Regulamin nie jest dodany - &quot;Terms and conditions of use&quot; [WYM-39]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -5204,7 +6721,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -5265,7 +6782,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -5373,7 +6890,7 @@ hr.fullcontent
  <em>● Po kliknięciu w “Home” użytkownik jest przeniesiony na stronę główną</em></p>
 <ol>
 	<li>użytkownik zalogowany, przewiń do dolnego menu aplikacji</li>
-	<li>wyświetl regulamin sklepu poprzez kliknięcie w link “Best sales”</li>
+	<li>wyświetl regulamin sklepu poprzez kliknięcie w link “Terms and conditions of use”</li>
 </ol>
 
 
@@ -5396,7 +6913,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-589]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-589">Niepoprawny adres linku w wymaganiu [WYM-38]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -5404,7 +6921,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -5465,7 +6982,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -5586,15 +7103,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-588]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-588">&quot;Best sales&quot; niepoprawne wyświetlanie listy produktów [WYM-36]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -5663,7 +7181,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -5802,7 +7320,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-587]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-587">&quot;New products&quot; nie może zostać przetestowane [WYM-35]</a>
             <span class="subText">
-               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 30/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -5810,7 +7328,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -5871,7 +7389,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -6011,15 +7529,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-586]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-586">&quot;Prices drop&quot; zwraca nieprawidłowe produkty [WYM-34]</a>
             <span class="subText">
-               Utworzono: 29/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 29/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -6088,7 +7607,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -6156,6 +7675,35 @@ hr.fullcontent
                             </td>
         </tr>
         
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-934">
+                     ONLW23-934                 </a>
+            </td>
+            <td>
+                &quot;Prices drop&quot; zwraca nieprawidłowe pr...
+            </td>
+            <td>
+                Do zrobienia
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
     
 
 
@@ -6225,7 +7773,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-585]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-585">Sprzeczność w wymaganiach [WYM-33]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -6233,7 +7781,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -6294,7 +7842,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -6369,12 +7917,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Cloners</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                    <tr>
+                                                                <tr>
             <td>
-                clones
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-584">
@@ -6384,10 +7932,10 @@ hr.fullcontent
                 Nieprawidłowa walidacja pola zapisu d...
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
-                                                                    </table>
+                                        </table>
             </td>
         </tr>
     
@@ -6455,7 +8003,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-584]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-584">Nieprawidłowa walidacja pola zapisu do newslettera [WYM-33]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -6463,7 +8011,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -6524,7 +8072,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -6608,12 +8156,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Cloners</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
-                                                                <tr>
+                                    <tr>
             <td>
-                is cloned by
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-585">
@@ -6623,10 +8171,10 @@ hr.fullcontent
                 Sprzeczność w wymaganiach [WYM-33]
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
-                                        </table>
+                                                                    </table>
             </td>
         </tr>
     
@@ -6698,7 +8246,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-581]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-581">Ucięty opis kategorii [WYM-25]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -6706,7 +8254,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -6767,7 +8315,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -6901,15 +8449,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-580]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-580">Zmiana waluty nie jest możliwa [WYM-29]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -6978,7 +8527,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -7090,7 +8639,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-579]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-579">Niepoprawna walidacja w formularzu kontaktowym [WYM-28]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -7098,7 +8647,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -7159,7 +8708,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -7303,7 +8852,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-578]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-578">Nie można wybrać podkategorii produktu z górnego menu [WYM-26]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -7311,7 +8860,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -7372,7 +8921,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -7497,15 +9046,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-577]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-577">Przycisk &quot;my store&quot; nie cofa do strony głównej [WYM-24]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -7574,7 +9124,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -7686,7 +9236,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-576]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-576">Brak dostępu do górnego menu z każdego miejsca [WYM-23]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -7694,7 +9244,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -7755,7 +9305,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -7875,15 +9425,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-575]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-575">Widok &quot;All products&quot; nie wyświetla się poprawnie [WYM-21]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -7952,7 +9503,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -8030,22 +9581,22 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
                                                                 <tr>
             <td>
-                is blocked by
+                relates to
             </td>
             <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-608">
-                     ONLW23-608                 </a>
+                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-933">
+                     ONLW23-933                 </a>
             </td>
             <td>
-                Nierówne marginesy boczne przy zdjęci...
+                Widok &quot;All products&quot; nie wyświetla si...
             </td>
             <td>
-                W toku
+                Do zrobienia
             </td>
         </tr>
                                         </table>
@@ -8118,15 +9669,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-574]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-574">Kafelek &quot;Credit Slips&quot; nie działa [WYM-20]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -8195,7 +9747,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -8316,7 +9868,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-573]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-573">Przycisk &quot;Reorder&quot; nie działa poprawnie [WYM-19]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -8324,7 +9876,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -8385,7 +9937,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -8519,7 +10071,7 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-572]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-572">Pusta wiadomość do zamówienia [WYM-18]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
                                             </span>
             </h3>
@@ -8527,7 +10079,7 @@ hr.fullcontent
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Do zrobienia</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -8588,7 +10140,7 @@ hr.fullcontent
                 <b>Osoba przypisana:</b>
             </td>
             <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
-                                            <a class="user-hover" rel="adrian.bialobrodzki@gmail.com" id="word_assignee_adrian.bialobrodzki@gmail.com" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=adrian.bialobrodzki%40gmail.com">Adrian Białobrodzki</a>
+                                            <a class="user-hover" rel="katarzyna.m.kedra" id="word_assignee_katarzyna.m.kedra" href="https://jira-kurs.coderslab.pl/secure/ViewProfile.jspa?name=katarzyna.m.kedra">Katarzyna Kędra</a>
                             </td>
             </tr>
     	<tr>
@@ -8934,15 +10486,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-570]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-570">Pobierane faktury nie są kompletne [WYM-16]</a>
             <span class="subText">
-               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 28/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -9011,7 +10564,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -9884,35 +11437,6 @@ hr.fullcontent
                             </td>
         </tr>
         
-            <tr>
-            <td bgcolor="#f0f0f0" width="20%" valign="top">
-                <b>Łącza zgłoszeń:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" class="noPadding">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
-                                            <tr>
-                            <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
-                            </td>
-                        </tr>
-                                    <tr>
-            <td>
-                blocks
-            </td>
-            <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-397">
-                     ONLW23-397                 </a>
-            </td>
-            <td>
-                Nieprawidłowe wyświetlanie pozycji na...
-            </td>
-            <td>
-                Do zrobienia
-            </td>
-        </tr>
-                                                                    </table>
-            </td>
-        </tr>
     
 
 
@@ -10324,35 +11848,6 @@ hr.fullcontent
                             </td>
         </tr>
         
-            <tr>
-            <td bgcolor="#f0f0f0" width="20%" valign="top">
-                <b>Łącza zgłoszeń:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" class="noPadding">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
-                                            <tr>
-                            <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
-                            </td>
-                        </tr>
-                                                                <tr>
-            <td>
-                is blocked by
-            </td>
-            <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-566">
-                     ONLW23-566                 </a>
-            </td>
-            <td>
-                Nieprawidłowy układ kafelków adresów ...
-            </td>
-            <td>
-                Do zrobienia
-            </td>
-        </tr>
-                                        </table>
-            </td>
-        </tr>
     
 
 
@@ -11019,35 +12514,6 @@ hr.fullcontent
             
 
         
-            <tr>
-            <td bgcolor="#f0f0f0" width="20%" valign="top">
-                <b>Łącza zgłoszeń:</b>
-            </td>
-            <td bgcolor="#ffffff" valign="top" class="noPadding">
-                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
-                                            <tr>
-                            <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
-                            </td>
-                        </tr>
-                                    <tr>
-            <td>
-                blocks
-            </td>
-            <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-337">
-                     <strike>ONLW23-337</strike>                 </a>
-            </td>
-            <td>
-                Nieprawidłowe wyświetlanie informacji...
-            </td>
-            <td>
-                Gotowe
-            </td>
-        </tr>
-                                                                    </table>
-            </td>
-        </tr>
     
 
 
@@ -11249,12 +12715,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
                                                                 <tr>
             <td>
-                is blocked by
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-635">
@@ -11262,21 +12728,6 @@ hr.fullcontent
             </td>
             <td>
                 Nieprawidłowe wyświetlanie informacji...
-            </td>
-            <td>
-                Do zrobienia
-            </td>
-        </tr>
-            <tr>
-            <td>
-                is blocked by
-            </td>
-            <td>
-                <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-347">
-                     ONLW23-347                 </a>
-            </td>
-            <td>
-                Nieprawidłowo opisana pozycja użytkow...
             </td>
             <td>
                 Do zrobienia
@@ -12131,12 +13582,12 @@ hr.fullcontent
                 <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
                                             <tr>
                             <td colspan="4" bgcolor="#f0f0f0">
-                                <b>Blocks</b><br/>
+                                <b>Relates</b><br/>
                             </td>
                         </tr>
                                                                 <tr>
             <td>
-                is blocked by
+                relates to
             </td>
             <td>
                 <a href="https://jira-kurs.coderslab.pl/browse/ONLW23-634">
@@ -12430,15 +13881,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-234]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-234">[testowy] Brak przekierowania do strony płatności</a>
             <span class="subText">
-               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 03/lut/22
+               Utworzono: 23/sty/22                   &nbsp;Zaktualizowano: 05/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 05/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">W toku</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -12507,7 +13959,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -12611,7 +14063,7 @@ hr.fullcontent
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sat Feb 05 21:04:44 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sun Feb 06 00:19:43 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>

@@ -10,7 +10,7 @@ Contents of workshop:
 
 1. Agile method
 - test plan and test management in JIRA, progress report included in:
----> Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T23_53_07+0100.doc[1]
+---> Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-06T01_22_37+0100.doc[1]
 
 2. Test plan
 - an overview of the requirements for the Coders Guru platform is included in:
@@ -35,10 +35,10 @@ Contents of workshop:
 ---> MyStore\Raport+JIRA+Testy+eksploracyjne+(Jira+-+Kurs+Testera)+2022-02-01T16_45_02+0100.doc[12]
 
 5. Retesting - MyStore
-- examples the test cases were prepared and executed in the JIRA (TestFLO), included in the folder:
----> MyStore\Przypadki+testowe+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T23_31_54+0100.doc[13]
 - retesting bugs reported in the JIRA (added TestFLO tool) are included in:
----> MyStore\Raport+JIRA+Retesty+(Jira+-+Kurs+Testera)+2022-02-05T22_04_44+0100.doc[14]
+---> MyStore\Raport+JIRA+Retesty+(Jira+-+Kurs+Testera)+2022-02-06T01_19_43+0100.doc[14]
+- examples to regression testing, the test cases were prepared and executed in the JIRA (TestFLO), included in the folder:
+---> MyStore\Przypadki+testowe+JIRA+(Jira+-+Kurs+Testera)+2022-02-05T23_31_54+0100.doc[13]
 - regression testing bugs reported in the JIRA (added TestFLO tool) are included in:
 ---> MyStore\ONLW23-932.doc[15]
 
