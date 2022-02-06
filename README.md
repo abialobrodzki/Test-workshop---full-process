@@ -10,7 +10,7 @@ Contents of workshop:
 
 1. Agile method
 - test plan and test management in JIRA, progress report included in:
----> Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-06T01_22_37+0100.doc[1]
+---> Raport+JIRA+(Jira+-+Kurs+Testera)+2022-02-06T19_24_59+0100.doc[1]
 
 2. Test plan
 - an overview of the requirements for the Coders Guru platform is included in:
@@ -42,5 +42,6 @@ Contents of workshop:
 - regression testing bugs reported in the JIRA (added TestFLO tool) are included in:
 ---> MyStore\ONLW23-932.doc[15]
 
-6. Reports
-- ... to be continued
+6. Reports - MyStore
+- website MyStore test report is included in:
+---> MyStore\BIA_Raport.docx[16]

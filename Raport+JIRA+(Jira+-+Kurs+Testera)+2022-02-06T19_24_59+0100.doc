@@ -80,15 +80,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-180]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-180">Uzupełnienie ankiety po zakończeniu kursu.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">Do zrobienia</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -157,7 +158,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -224,15 +225,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-177]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-177">Udział w retrospektywie podsumowującej kurs.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">Do zrobienia</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -301,7 +303,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -360,6 +362,25 @@ hr.fullcontent
             </tr>
             </table>
 
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Spotkanie podsumowujące projekt.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
 
 <hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
 <table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -368,15 +389,16 @@ hr.fullcontent
                             <h3 class="formtitle">
                         [ONLW23-176]&nbsp;<a href="https://jira-kurs.coderslab.pl/browse/ONLW23-176">Przygotowanie raportu podsumowującego prace testowe aplikacji MyStore.</a>
             <span class="subText">
-               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 09/sty/22
+               Utworzono: 09/sty/22                   &nbsp;Zaktualizowano: 06/lut/22
 
-                                            </span>
+                                                    &nbsp;Rozwiązane: 06/lut/22
+                            </span>
             </h3>
         </td>
     </tr>
     <tr>
         <td width="20%"><b>Status:</b></td>
-        <td width="80%">Do zrobienia</td>
+        <td width="80%">Gotowe</td>
     </tr>
     <tr>
         <td width="20%"><b>Projekt:</b></td>
@@ -445,7 +467,7 @@ hr.fullcontent
 			<b>Rozwiązanie:</b>
 		</td>
 		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
-            				Nierozwiązane
+                            Gotowe
                     </td>
                     <td bgcolor="#f0f0f0" width="20%">
                 <b>Głosy:</b>
@@ -493,6 +515,15 @@ hr.fullcontent
     	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
             
 
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-kurs.coderslab.pl/images/icons/attach/word.gif" height="16" width="16" border="0" alt="Microsoft Word">
+                    BIA_Raport.docx &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
         
     
 
@@ -504,6 +535,27 @@ hr.fullcontent
             </tr>
             </table>
 
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>W załączeniu znajduje się raport podsumowujący.</p>
+
+<p>Aktualna wersja v. 0.1</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
 
 <hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
 <table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
@@ -2257,7 +2309,7 @@ Testy obejmują wymagania niefunkcjonalne (10):<br/>
     </tr>
     </table>
 
-<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sun Feb 06 00:22:37 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sun Feb 06 18:24:59 GMT 2022) przez Adrian Białobrodzki z użyciem systemu Jira 8.8.1#808001-sha1:e5cdcf9fa57df21d4b441572dda42ac58b826e01.
 
 </body>
 </html>
